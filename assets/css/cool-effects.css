@@ -1,0 +1,142 @@
+.longshadow-small {
+  box-shadow: rgb(226, 228, 232) 0.508896px 0.508896px 0px, rgb(227, 229, 233) 1.5089px 1.5089px 0px, rgb(228, 230, 234) 2.5089px 2.5089px 0px, rgb(229, 231, 235) 3.5089px 3.5089px 0px, rgb(230, 232, 236) 4.5089px 4.5089px 0px, rgb(230, 232, 236) 5.5089px 5.5089px 0px, rgb(231, 233, 237) 6.5089px 6.5089px 0px, rgb(232, 234, 238) 7.5089px 7.5089px 0px, rgb(233, 235, 239) 8.5089px 8.5089px 0px, rgb(234, 236, 240) 9.5089px 9.5089px 0px, rgb(234, 236, 240) 10.5089px 10.5089px 0px, rgb(235, 237, 241) 11.5089px 11.5089px 0px, rgb(236, 238, 242) 12.5089px 12.5089px 0px, rgb(237, 239, 243) 13.5089px 13.5089px 0px, rgb(238, 240, 244) 14.5089px 14.5089px 0px, rgb(238, 240, 244) 15.5089px 15.5089px 0px, rgb(239, 241, 245) 16.5089px 16.5089px 0px, rgb(240, 242, 246) 17.5089px 17.5089px 0px, rgb(241, 243, 247) 18.5089px 18.5089px 0px, rgb(242, 244, 248) 19.5089px 19.5089px 0px;
+}
+
+.longshadow {
+  box-shadow: rgb(229, 229, 229) 1px 1px 0px, rgb(229, 229, 229) 2px 2px 0px, rgb(229, 229, 229) 3px 3px 0px, rgb(229, 229, 229) 4px 4px 0px, rgb(229, 229, 229) 5px 5px 0px, rgb(229, 229, 229) 6px 6px 0px, rgb(229, 229, 229) 7px 7px 0px, rgb(229, 229, 229) 8px 8px 0px, rgb(229, 229, 229) 9px 9px 0px, rgb(229, 229, 229) 10px 10px 0px, rgb(229, 229, 229) 11px 11px 0px, rgb(229, 229, 229) 12px 12px 0px, rgb(229, 229, 229) 13px 13px 0px, rgb(229, 229, 229) 14px 14px 0px, rgb(229, 229, 229) 15px 15px 0px, rgb(229, 229, 229) 16px 16px 0px, rgb(229, 229, 229) 17px 17px 0px, rgb(229, 229, 229) 18px 18px 0px, rgb(229, 229, 229) 19px 19px 0px, rgb(229, 229, 229) 20px 20px 0px, rgb(229, 229, 229) 21px 21px 0px, rgb(229, 229, 229) 22px 22px 0px, rgb(229, 229, 229) 23px 23px 0px, rgb(229, 229, 229) 24px 24px 0px, rgb(230, 230, 230) 25px 25px 0px, rgb(230, 230, 230) 26px 26px 0px, rgb(231, 231, 231) 27px 27px 0px, rgb(231, 231, 231) 28px 28px 0px, rgb(231, 231, 231) 29px 29px 0px, rgb(232, 232, 232) 30px 30px 0px, rgb(232, 232, 232) 31px 31px 0px, rgb(233, 233, 233) 32px 32px 0px, rgb(233, 233, 233) 33px 33px 0px, rgb(234, 234, 234) 34px 34px 0px, rgb(234, 234, 234) 35px 35px 0px, rgb(234, 234, 234) 36px 36px 0px, rgb(235, 235, 235) 37px 37px 0px, rgb(235, 235, 235) 38px 38px 0px, rgb(236, 236, 236) 39px 39px 0px, rgb(236, 236, 236) 40px 40px 0px, rgb(237, 237, 237) 41px 41px 0px, rgb(237, 237, 237) 42px 42px 0px, rgb(237, 237, 237) 43px 43px 0px, rgb(238, 238, 238) 44px 44px 0px, rgb(238, 238, 238) 45px 45px 0px, rgb(239, 239, 239) 46px 46px 0px, rgb(239, 239, 239) 47px 47px 0px, rgb(239, 239, 239) 48px 48px 0px, rgb(240, 240, 240) 49px 49px 0px, rgb(240, 240, 240) 50px 50px 0px, rgb(241, 241, 241) 51px 51px 0px, rgb(241, 241, 241) 52px 52px 0px, rgb(242, 242, 242) 53px 53px 0px, rgb(242, 242, 242) 54px 54px 0px, rgb(242, 242, 242) 55px 55px 0px, rgb(243, 243, 243) 56px 56px 0px, rgb(243, 243, 243) 57px 57px 0px, rgb(244, 244, 244) 58px 58px 0px, rgb(244, 244, 244) 59px 59px 0px, rgb(245, 245, 245) 60px 60px 0px;
+}
+
+.temacheckbox {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.menu .form-label {
+  height: 180px;
+  width: 120px;
+  margin-bottom: 0;
+}
+
+:checked + label {
+}
+
+.themes .col-form-label {
+  line-height: 0;
+  padding: 0;
+}
+
+.themes .themeradio {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.themes [type=radio]:checked + img {
+  /*border-color: var(--bs-pink);*/
+  /*border-style: solid;*/
+  /*border-width: 5px;*/
+}
+
+.tariharaligi {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding-left: 1rem;
+  color: #000000!important;
+  border-radius: 2rem;
+  box-shadow: none;
+  text-align: center;
+  opacity: 1;
+}
+
+.tariharaligi:focus::placeholder, .tariharaligi:active::placeholder, .tariharaligi:focus-visible::placeholder {
+  color: #000000!important;
+}
+
+.tariharaligi::placeholder {
+  color: #000000!important;
+}
+
+.tariharaligi:focus, .tariharaligi:active, .tariharaligi:focus-visible {
+  border-color: #000;
+  border-radius: 2rem!important;
+  box-shadow: none;
+  outline: none;
+  color: #000000!important;
+}
+
+.flatpickr-calendar {
+  border-radius: 1rem!important;
+  background: #f2f4f8!important;
+  border-color: #000!important;
+  border-width: 1px!important;
+  border-style: solid!important;
+  box-shadow: 6px 6px 16px rgba(174,174,192,0.2), -6px -6px 16px #FFFFFF;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
+  background-color: #000000!important;
+  border-color: #000000!important;
+}
+
+span.flatpickr-weekday {
+  color: #000!important;
+}
+
+.istatistiktabi .linkduzenlemekisim.yenikutu {
+  padding: 1rem;
+}
+
+.istatistiktabi .linkduzenlemekisim h5 {
+  text-align: center;
+}
+
+.themes :checked + label {
+  outline-style: solid;
+  outline-color: #4b6dff;
+  outline-width: 3px;
+  outline-offset: -3px;
+}
+
+.themes .form-label {
+  margin: 00 0 0;
+  display: block;
+  text-align: center;
+}
+
+.themes .col:first-child {
+  padding-left: 0;
+}
+
+.linkduzenlemekisim h4 {
+  margin-bottom: .3rem;
+}
+
+.linklerlistesi .sortable-items .module h6 {
+  margin-bottom: .1rem;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.linklerlistesi .sortable-items .module .blokunlinki {
+  display: block;
+  font-size: 1rem;
+  font-family: 'Gilroy-Light ☞';
+}
+
+.linklerlistesi .sortable-items .module .fas.fa-pen {
+  font-size: .8rem;
+  line-height: 26.8px;
+  color: #d5d5d5;
+}
+
+.flatpickr-calendar.arrowTop::before {
+  border-bottom-color: #000!important;
+}
+
