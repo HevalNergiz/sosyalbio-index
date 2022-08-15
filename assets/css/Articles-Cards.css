@@ -147,10 +147,10 @@
   border-style: solid;
   border-radius: 17px!important;
   box-shadow: 5px 5px;
-  transition-duration: .1s;
   border-width: 1px;
   border-color: black;
   background-color: #f2f4f8;
+  transition-duration: .1s;
 }
 
 .sssac .accordion-item:last-of-type {
@@ -175,8 +175,8 @@
 
 .sssac .accordion-item:hover, .sssac .accordion-item:active, .sssac .accordion-item:after, .sssac .accordion-item:focus {
   box-shadow: 10px 10px;
-  transform: translateX(-5px) translateY(-5px);
-  transition-duration: .1s;
+  transform: translateX(-5px) translateY(-5px)!important;
+  /*transition-duration: .1s!important;*/
 }
 
 .sssac .accordion-button:focus {
@@ -196,7 +196,7 @@
 .sssac .accordion-collapse {
   /*border-style: solid;*/
   border-width: 0 1px 1px 1px;
-  border-radius: 1rem;
+  border-radius: 1rem!important;
   background-color: #f2f4f8;
 }
 
