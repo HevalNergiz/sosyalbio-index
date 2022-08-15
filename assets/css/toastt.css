@@ -1,0 +1,56 @@
+.my-toast-card {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #000;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.toastanadiv {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+}
+
+@media (min-width: 768px) {
+  .toastanadiv {
+    width: 50%;
+  }
+}
+
+.toastbadge {
+  max-width: 40%;
+  margin-bottom: 1rem;
+}
+
+.benimtoast {
+  box-shadow: none;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  border-width: 0;
+}
+
+.benimtoast .toast-header {
+  box-shadow: none;
+  border-width: 0;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.benimtoast strong svg {
+  font-size: 2rem;
+}
+
+.benimtoast .toast-header strong {
+  font-size: 1.2rem;
+}
+
+.benimtoast .toast-header .btn-close {
+  margin-right: .5rem;
+  margin-left: .75rem;
+}
+

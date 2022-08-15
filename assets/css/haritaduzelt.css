@@ -1,0 +1,20 @@
+.mapouter, .mapouter div, .mapDiv iframe, #gmap_canvas, .gm-style {
+  border-radius: 1rem!important;
+}
+
+.mapouter {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .haritanindivi {
+    box-shadow: 10px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .haritanindivi {
+    box-shadow: 20px 20px;
+  }
+}
+

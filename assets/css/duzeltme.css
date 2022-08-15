@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+  .quotebox .fas.fa-quote-left {
+    font-size: 2rem!important;
+    left: 6px!important;
+  }
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu {
+  min-width: 0;
+  border-radius: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.03)!important;
+  background-color: #ffffff;
+  left: -20px;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu::before {
+  /*width: 1rem;*/
+  /*height: 1rem;*/
+  display: flex;
+  /*background-color: #212529;*/
+  content: "";
+  top: -8px;
+  left: calc(50% - -12px);
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #d8d8d8;
+}
+
+.pixellericin .baglantilarbloktools.mobildegorun .dropdown-menu::before {
+  width: 0;
+  /*height: 0;*/
+  display: none;
+  /*background-color: #212529;*/
+  /*content: "";*/
+  top: -8px;
+  left: calc(50% - -12px);
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #d8d8d8;
+}
+
+.pixellericin .baglantilarbloktools.mobildegorun .dropdown-menu {
+  border: none;
+}
+
