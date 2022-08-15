@@ -97,7 +97,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../../assets/img/groovepaper.png");
+  background: url("../../assets/img/groovepaper.png") , #f9f9f9;
   color: #212529;
   z-index: 9999999999999999999999999999;
 }
