@@ -1,1 +1,0 @@
-$('.icp-auto').iconpicker();
