@@ -97,7 +97,7 @@
 
 @media (max-width: 992px) {
   main {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
   }
 }
 
