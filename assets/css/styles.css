@@ -2248,7 +2248,7 @@ footer .list-inline-item a {
 
 @media (max-width: 576px) {
   .anasayfadaki .premiumfeatures .features-anadiv {
-    max-width: 95%;
+    max-width: 100%;
   }
 }
 
