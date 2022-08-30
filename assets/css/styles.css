@@ -276,7 +276,7 @@ body {
 .previewcol {
   display: grid;
   align-items: start;
-  max-height: calc(100vh - 92px);
+  max-height: calc(100vh - 126px);
 }
 
 @media (min-width: 992px) {

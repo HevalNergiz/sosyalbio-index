@@ -8,7 +8,7 @@
   color: white;
 }
 
-.demo-wrapper img {
+.demo-wrapper img, .demo-wrapper iframe {
   width: 100%;
   height: auto;
   background: #f0f0f0;
@@ -92,7 +92,7 @@
 }
 
 .loader {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   left: 0;
   right: 0;

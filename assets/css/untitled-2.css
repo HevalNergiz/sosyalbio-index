@@ -1,0 +1,15 @@
+.destektalebitable a {
+  text-decoration: none;
+  color: var(--bs-body-color);
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.destektalebitable tr > td:nth-child(2) {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.destektalebitable th {
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 1.1rem;
+}
+

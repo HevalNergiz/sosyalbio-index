@@ -49,6 +49,8 @@
     <link rel="stylesheet" href="assets/css/toastt.css">
     <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
     <link rel="stylesheet" href="assets/css/untitled-1.css">
+    <link rel="stylesheet" href="assets/css/untitled-2.css">
+    <link rel="stylesheet" href="assets/css/untitled-3.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
@@ -122,9 +124,9 @@
                     <div class="linksekmeleri">
                         <ul class="nav nav-tabs guzelnavtabs" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Linkler</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-2">Görünüm</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Görünüm</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">İstatistikler</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Ayarlar</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-4">Ayarlar</a></li>
                         </ul>
                         <div class="tab-content linkduzenlemetabcontent">
                             <div class="tab-pane" role="tabpanel" id="tab-1">
@@ -151,6 +153,7 @@
                                         <section class="module">
                                             <div class="modulemaindiv">
                                                 <div class="dragplace">
+                                                    <div class="zenginicon"><i class="fas fa-link"></i></div>
                                                     <div class="sixiconsdiv"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-grip-vertical">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                             <circle cx="9" cy="5" r="1"></circle>
@@ -456,7 +459,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane active" role="tabpanel" id="tab-2">
+                            <div class="tab-pane" role="tabpanel" id="tab-2">
                                 <form class="gorunumform">
                                     <div class="linkduzenlemekisim" style="/*background-color: #ffffff;*/">
                                         <h4><span class="baslikiconu">🤗</span>&nbsp;Profil</h4>
@@ -465,18 +468,17 @@
                                             <div class="col avatarbutonlaricol">
                                                 <div class="avatarbutonlari"><button class="btn btn-primary ppayarbutton" type="button">Profil Fotoğrafı Seç</button><button class="btn btn-light ppayarbutton" type="button">Profil Fotoğrafını Kaldır</button></div>
                                             </div>
-                                        </div><input class="form-control profiltitle" type="text" id="profiltitle" placeholder="Profil Başlığı"><label class="form-label biotextlabel">bio</label><textarea class="form-control biotextarea" id="biotextarea" rows="3" maxlength="100" placeholder="sosyal.bio sayfanızda yer almasını istediğiniz bio metni"></textarea>
-                                        <div class="d-flex align-items-center mb-2" style="gap: 15px;"><label class="form-label biotextlabel">Profil Başlığı ve bio metni için renk seçiniz</label><input class="form-control form-control-color" type="color"></div><button class="btn btn-light benimbutton-light" type="button" style="width: 100%;" data-bs-target="#sosyalmedyabaglantilari" data-bs-toggle="modal">Sosyal Medya Bağlantıları</button>
+                                        </div><input class="form-control profiltitle" type="text" id="profiltitle" placeholder="Profil Başlığı"><label class="form-label biotextlabel">bio</label><textarea class="form-control biotextarea" id="biotextarea" rows="3" maxlength="100" placeholder="sosyal.bio sayfanızda yer almasını istediğiniz bio metni"></textarea><button class="btn btn-light benimbutton-light" type="button" style="width: 100%;" data-bs-target="#sosyalmedyabaglantilari" data-bs-toggle="modal">Sosyal Medya Bağlantıları</button>
                                     </div>
                                     <div class="linkduzenlemekisim temakismi" style="padding: 1rem;">
                                         <h4><span class="baslikiconu">🔥</span>Görünüm</h4>
                                         <div>
                                             <ul class="nav nav-tabs nav-fill guzelnavtabs" role="tablist">
-                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-5">Hazır Temalar</a></li>
-                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-6">Tema Oluştur</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-5">Hazır Temalar</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-6">Tema Oluştur</a></li>
                                             </ul>
                                             <div class="tab-content">
-                                                <div class="tab-pane active" role="tabpanel" id="tab-5">
+                                                <div class="tab-pane" role="tabpanel" id="tab-5">
                                                     <p style="color: #595959;margin-bottom: 1rem;font-family: 'Gilroy-Light ☞';margin-left: .5rem;">Eşsiz tasarım trendleriyle hızlı ve kaliteli başlangıç arayanlar için.</p>
                                                     <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">🧑‍🎨 Biolink sayfanızın ana teması</p><small class="form-text" style="margin-left: .5rem;">Tüm temaları görebilmek için sola kaydırın.</small>
                                                     <div class="gercektemalar">
@@ -581,14 +583,20 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane" role="tabpanel" id="tab-6">
+                                                <div class="tab-pane active" role="tabpanel" id="tab-6">
                                                     <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">🍫 Buton, yazı ve çerçeve renkleri.</p>
-                                                    <div class="row row-cols-3 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 colorpickerrow mb-3">
+                                                    <div class="row gx-2 row-cols-2 row-cols-md-4 colorpickerrow mb-3">
                                                         <div class="col">
-                                                            <div class="colorpickercard"><input type="color" class="color-pick" value="#4b6dff">
+                                                            <div class="colorpickercard"><input type="color" class="color-pick" value="#FFD700">
                                                                 <p class="renkbirincibaslik">Button</p>
                                                                 <p class="renkikincibaslik">Rengi</p>
                                                             </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="colorpickercard"><input type="color" class="color-pick" value="#131313">
+                                                                <p class="renkbirincibaslik">Başlık</p>
+                                                                <p class="renkikincibaslik">Rengi</p>
+                                                            </div><small class="form-text cerceveaciklama">Profil Başlığı ve bio metni için renk seçiniz.</small>
                                                         </div>
                                                         <div class="col">
                                                             <div class="colorpickercard"><input type="color" class="color-pick" value="#4b6dff">
@@ -637,32 +645,77 @@
                                                                     <div class="modal-header">
                                                                         <h4 class="modal-title">Özel Arkaplan</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                                     </div>
-                                                                    <div class="modal-body">
+                                                                    <div class="modal-body pt-0">
                                                                         <div>
-                                                                            <ul class="nav nav-tabs nav-fill guzelnavtabs" role="tablist">
-                                                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-36">Düz Renk</a></li>
+                                                                            <ul class="nav nav-tabs nav-justified guzelnavtabs" role="tablist">
+                                                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-36">Düz Renk</a></li>
                                                                                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-37">Gradient</a></li>
-                                                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-38">Görsel</a></li>
+                                                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-38">Görsel</a></li>
                                                                             </ul>
                                                                             <div class="tab-content">
-                                                                                <div class="tab-pane active" role="tabpanel" id="tab-36">
-                                                                                    <div class="input-group myinputgroup"><span class="input-group-text">Arkaplan Rengi</span>
-                                                                                        <div class="input-group-text"><input class="form-control form-control-color" type="color" value="#4b6dff"></div>
-                                                                                    </div>
+                                                                                <div class="tab-pane" role="tabpanel" id="tab-36">
+                                                                                    <form>
+                                                                                        <div class="row">
+                                                                                            <div class="col" style="padding: 12px;align-items: center;display: grid;">
+                                                                                                <div>
+                                                                                                    <div class="input-group myinputgroup renksecicigroup"><span class="input-group-text">Arkaplan Rengi</span>
+                                                                                                        <div class="input-group-text"><input class="form-control form-control-color" type="color" id="colorhead-2" value="#4b6dff" onchange="setSolid()"></div>
+                                                                                                    </div>
+                                                                                                    <p class="gilroylight text-start text-muted">Biolink sayfanızın arkaplanını dilediğiniz bir görsel ile değiştirin.</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-4" style="padding: .75rem 12px;justify-content: end;display: flex;">
+                                                                                                <div id="soliddiv" style="height: 10rem;border-radius: 1rem;width: 7rem;"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="modal-footer" style="padding: .75rem 0 0;"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
+                                                                                    </form>
                                                                                 </div>
                                                                                 <div class="tab-pane" role="tabpanel" id="tab-37">
-                                                                                    <div class="input-group myinputgroup mb-2"><span class="input-group-text">Geçiş Rengi #1</span>
-                                                                                        <div class="input-group-text"><input class="form-control form-control-color" type="color" value="#4b6dff"></div>
-                                                                                    </div>
-                                                                                    <div class="input-group myinputgroup"><span class="input-group-text">Geçiş Rengi #2</span>
-                                                                                        <div class="input-group-text"><input class="form-control form-control-color" type="color" value="#47B8F8"></div>
-                                                                                    </div>
+                                                                                    <form>
+                                                                                        <div class="row">
+                                                                                            <div class="col dosyayuklediv">
+                                                                                                <div>
+                                                                                                    <div class="input-group myinputgroup mb-2 renksecicigroup"><span class="input-group-text">Geçiş Rengi #1</span>
+                                                                                                        <div class="input-group-text" style="border-top-right-radius: .7rem;border-bottom-right-radius: .7rem;"><input class="form-control form-control-color" type="color" id="colorhead" value="#4b6dff" onchange="setDegrade()"></div>
+                                                                                                    </div>
+                                                                                                    <div class="input-group myinputgroup mb-2 renksecicigroup"><span class="input-group-text">Geçiş Rengi #2</span>
+                                                                                                        <div class="input-group-text"><input class="form-control form-control-color" type="color" id="colorhead-1" value="#47B8F8" onchange="setDegrade()"></div>
+                                                                                                    </div><select class="form-select myformcontrol4" id="yonlendirici" onchange="setDegrade()">
+                                                                                                        <optgroup label="Yönlendirme">
+                                                                                                            <option value="right" selected="">Soldan Sağa</option>
+                                                                                                            <option value="left">Sağdan Sola</option>
+                                                                                                            <option value="bottom">Yukarıdan Aşağıya</option>
+                                                                                                            <option value="top">Aşağıdan Yukarıya</option>
+                                                                                                        </optgroup>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-4 col-sm-4 imageonizleme" style="justify-content: end;display: flex;">
+                                                                                                <div id="degradediv" class="coloronizleme"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="modal-footer" style="padding: .75rem 0 0;"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
+                                                                                    </form>
                                                                                 </div>
-                                                                                <div class="tab-pane" role="tabpanel" id="tab-38"><input class="form-control myformcontrol4" type="file" style="padding-left: 1rem;"></div>
+                                                                                <div class="tab-pane active" role="tabpanel" id="tab-38">
+                                                                                    <form>
+                                                                                        <div class="row">
+                                                                                            <div class="col dosyayuklediv">
+                                                                                                <div><input class="form-control myformcontrol4 myfileinput mb-2" type="file" id="file" onchange="readURL(this);" accept="image/*">
+                                                                                                    <p class="gilroylight text-start text-muted">Biolink sayfanızın arkaplanını dilediğiniz bir görsel ile değiştirin.</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-4 imageonizleme">
+                                                                                                <div id="frame" style="height: 100%;border-radius: 1rem;width: 7rem;height: 10rem;border-style: solid;border-width: 1px;border-color: #eaecef;background-position: center;background-color: #f9f9f9;background-size: cover;"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="modal-footer" style="padding: .75rem 0 0;"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
+                                                                                    </form>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -770,21 +823,203 @@
                                     <div><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Instagram&quot;,&quot;TikTok&quot;,&quot;LinkedIn&quot;,&quot;Facebook&quot;,&quot;Sosyal.bio&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;TopRefeers&quot;,&quot;backgroundColor&quot;:[&quot;#ffe68c&quot;,&quot;#ffd0a8&quot;,&quot;#d9d1ff&quot;,&quot;#b7efff&quot;,&quot;rgb(75,109,255)&quot;],&quot;borderColor&quot;:[&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;],&quot;data&quot;:[&quot;15&quot;,&quot;10&quot;,&quot;5&quot;,&quot;7&quot;,&quot;3&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;},&quot;reverse&quot;:false,&quot;position&quot;:&quot;left&quot;},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;position&quot;:&quot;top&quot;,&quot;display&quot;:false}}}"></canvas></div>
                                 </div>
                             </div>
-                            <div class="tab-pane ayarlarpane" role="tabpanel" id="tab-4">
+                            <div class="tab-pane active ayarlarpane" role="tabpanel" id="tab-4">
                                 <form>
                                     <div class="linkduzenlemekisim">
                                         <h5>Bağlantı Ayarları</h5><small class="form-text ayarminibaslik">Kısa URL</small>
                                         <div class="input-group myinputgroup"><span class="input-group-text">https://sosyal.bio/</span><input class="form-control myformcontrol4 p-0" type="text" value="hevalnergiz"><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
                                     </div>
                                     <div class="linkduzenlemekisim">
+                                        <h5>Kategori Seçimi</h5><div class="kendindenbahset kategoritabs" style="margin-bottom: 2.5rem;"><small class="form-text">Seni sosyal.bio&#39;da en iyi tanıtacak kategoriyi seç:</small>
+    <div class="kategorilerinanatabs">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation"><a class="nav-link " role="tab" data-bs-toggle="tab" href="#tab-22">💼  İş</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-23">🖌  Yaratıcılık</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-24">📚  Eğitim</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-25">🎷  Eğlence</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-26">💻  Teknoloji</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-27">🍔   Yiyecek ve İçecek</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-39">🏛  Devlet ve Politikacı</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-40">🍎  Sağlık</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-41">💞  Kâr Amacı Gütmeyen</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-42">👠  Moda &amp; Güzellik</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-43">🛫  Seyehat ve Turizm</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-44">🙌  Diğer</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="tab-22" class="tab-pane " role="tabpanel">
+                <div><small class="form-text">İş Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-180" class="form-check-input" type="checkbox" /><label class="form-check-label" for="formCheck-180">Ajans ve Danışmanlık</label></div>
+                    <div class="form-check"><input id="formCheck-124" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-124">Ajans ve Danışmanlık</label></div>
+                    <div class="form-check"><input id="formCheck-125" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-125">Otomobil</label></div>
+                    <div class="form-check"><input id="formCheck-126" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-126">El Sanatları</label></div>
+                    <div class="form-check"><input id="formCheck-127" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-127">Finans</label></div>
+                    <div class="form-check"><input id="formCheck-128" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-128">Ev Geliştirme ve Bakımı</label></div>
+                    <div class="form-check"><input id="formCheck-104" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-104">İK ve İşe Alım</label></div>
+                    <div class="form-check"><input id="formCheck-105" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-105">Reklam ve Pazarlama</label></div>
+                    <div class="form-check"><input id="formCheck-107" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-107">Halkla İlişkiler</label></div>
+                    <div class="form-check"><input id="formCheck-108" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-108">Emlak</label></div>
+                    <div class="form-check"><input id="formCheck-109" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-109">Alışveriş ve Perakande</label></div>
+                    <div class="form-check"><input id="formCheck-110" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-110">StartUP</label></div>
+                    <div class="form-check"><input id="formCheck-129" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-129">Venture Capital</label></div>
+                    <div class="form-check"><input id="formCheck-130" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-130">Düğün</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-23" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Yaratıcılık Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-131" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-131">Yetişkin</label></div>
+                    <div class="form-check"><input id="formCheck-132" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-132">Cosplay</label></div>
+                    <div class="form-check"><input id="formCheck-133" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-133">El Sanatları</label></div>
+                    <div class="form-check"><input id="formCheck-134" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-134">Tasarımcı</label></div>
+                    <div class="form-check"><input id="formCheck-135" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-135">Digital Creator</label></div>
+                    <div class="form-check"><input id="formCheck-136" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-136">Influencer</label></div>
+                    <div class="form-check"><input id="formCheck-137" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-137">Model</label></div>
+                    <div class="form-check"><input id="formCheck-138" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-138">Görsel Sanatlar</label></div>
+                    <div class="form-check"><input id="formCheck-139" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-139">Yazar</label></div>
+                </div>
+            </div>
+            <div id="tab-24" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Eğitim Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-140" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-140">Kampüs Organizasyonları</label></div>
+                    <div class="form-check"><input id="formCheck-141" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-141">Okullar ve Üniversiteler</label></div>
+                    <div class="form-check"><input id="formCheck-142" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-142">Kurslar</label></div>
+                    <div class="form-check"><input id="formCheck-143" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-143">Öğretmen</label></div>
+                    <div class="form-check"><input id="formCheck-144" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-144">E-Öğrenme</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-25" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Eğlence Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-146" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-146">Aktör</label></div>
+                    <div class="form-check"><input id="formCheck-147" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-147">Komedi</label></div>
+                    <div class="form-check"><input id="formCheck-148" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-148">Dans ve Tiyatro</label></div>
+                    <div class="form-check"><input id="formCheck-149" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-149">Film ve TV</label></div>
+                    <div class="form-check"><input id="formCheck-150" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-150">Oyun ve E-Spor</label></div>
+                    <div class="form-check"><input id="formCheck-151" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-151">Canlı Etkinlikler</label></div>
+                    <div class="form-check"><input id="formCheck-152" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-152">Müzik</label></div>
+                    <div class="form-check"><input id="formCheck-153" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-153">Performans Sanatları</label></div>
+                    <div class="form-check"><input id="formCheck-154" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-154">Yayınlar ve Dijital Medya</label></div>
+                    <div class="form-check"><input id="formCheck-155" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-155">Radyo ve Podcast</label></div>
+                    <div class="form-check"><input id="formCheck-156" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-156">Talent Agency</label></div>
+                    <div class="form-check"><input id="formCheck-157" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-157">Talent Management</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-26" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Teknoloji Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-159" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-159">Eğitim Teknolojileri</label></div>
+                    <div class="form-check"><input id="formCheck-160" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-160">Finans Teknoljileri</label></div>
+                    <div class="form-check"><input id="formCheck-161" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-161">Donanım</label></div>
+                    <div class="form-check"><input id="formCheck-162" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-162">Yazılım</label></div>
+                    <div class="form-check"><input id="formCheck-163" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-163">Mobil Uygulama</label></div>
+                    <div class="form-check"><input id="formCheck-164" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-164">SaaS</label></div>
+                    <div class="form-check"><input id="formCheck-165" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-165">Sosyal Medya</label></div>
+                    <div class="form-check"><input id="formCheck-166" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-166">Blokchain</label></div>
+                    <div class="form-check"><input id="formCheck-167" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-167">Robotik</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-27" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Yiyecek ve İçecek Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-169" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-169">Alkol</label></div>
+                    <div class="form-check"><input id="formCheck-170" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-170">Bar ve Restoran</label></div>
+                    <div class="form-check"><input id="formCheck-171" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-171">Şef</label></div>
+                    <div class="form-check"><input id="formCheck-172" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-172">Kahve ve Çay</label></div>
+                    <div class="form-check"><input id="formCheck-173" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-173">Tatlı</label></div>
+                    <div class="form-check"><input id="formCheck-174" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-174">Manav</label></div>
+                    <div class="form-check"><input id="formCheck-175" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-175">Ev Yemekleri</label></div>
+                    <div class="form-check"><input id="formCheck-176" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-176">Cafe</label></div>
+                  
+                </div>
+            </div>
+            <div id="tab-39" class="tab-pane" role="tabpanel">
+                <div><small class="form-text"> Devlet ve Politikacı Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-112" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-112">Aktivizm</label></div>
+                    <div class="form-check"><input id="formCheck-113" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-113">Şehir ve Belediyeler</label></div>
+                    <div class="form-check"><input id="formCheck-114" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-114">Acil Durum Hizmetleri</label></div>
+                    <div class="form-check"><input id="formCheck-115" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-115">Yargı</label></div>
+                    <div class="form-check"><input id="formCheck-116" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-116">Hukuk</label></div>
+                    <div class="form-check"><input id="formCheck-117" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-117">Kütüphane</label></div>
+                    <div class="form-check"><input id="formCheck-118" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-118">Asker ve Gazi</label></div>
+                    <div class="form-check"><input id="formCheck-119" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-119">Siyasetçi</label></div>
+                    <div class="form-check"><input id="formCheck-120" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-120">Politika</label></div>
+                    <div class="form-check"><input id="formCheck-121" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-121">Halka Açık Hizmetler</label></div>
+                    <div class="form-check"><input id="formCheck-122" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-122">StartUP</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-40" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Sağlık Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-177" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-177">Fitness</label></div>
+                    <div class="form-check"><input id="formCheck-178" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-178">Hayat Koçluğu</label></div>
+                    <div class="form-check"><input id="formCheck-179" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-179">Sağlık Hizmeti</label></div>
+                    <div class="form-check"><input id="formCheck-69" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-69">Beslenme</label></div>
+                    <div class="form-check"><input id="formCheck-70" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-70">Masaj ve Spa</label></div>
+                    <div class="form-check"><input id="formCheck-72" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-72">Spirütüelizm</label></div>
+                  
+                </div>
+            </div>
+            <div id="tab-41" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Kar amacı gütmeyen Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-73" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-73">İklim</label></div>
+                    <div class="form-check"><input id="formCheck-74" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-74">Topluluk Organizasyonları</label></div>
+                    <div class="form-check"><input id="formCheck-75" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-75">Afet Yardımı</label></div>
+                    <div class="form-check"><input id="formCheck-76" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-76">Müzeler</label></div>
+                    <div class="form-check"><input id="formCheck-77" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-77">Vahşi Yaşam</label></div>
+                  
+                </div>
+            </div>
+            <div id="tab-42" class="tab-pane" role="tabpanel">
+                <div><small class="form-text d-block">Moda ve Güzellik Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-78" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-78">Kıyafet ve Aksesuar</label></div>
+                    <div class="form-check"><input id="formCheck-79" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-79">Parfüm</label></div>
+                    <div class="form-check"><input id="formCheck-81" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-81">Saç Bakımı</label></div>
+                    <div class="form-check"><input id="formCheck-82" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-82">Mücevher</label></div>
+                    <div class="form-check"><input id="formCheck-83" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-83">Makyaj ve Cilt Bakımı</label></div>
+                    <div class="form-check"><input id="formCheck-84" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-84">Tırnak Bakımı</label></div>
+                    <div class="form-check"><input id="formCheck-85" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-85">Ayakabı</label></div>
+                    <div class="form-check"><input id="formCheck-86" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-86">Dövme ve Piercing</label></div>
+                  
+                </div>
+            </div>
+            <div id="tab-43" class="tab-pane" role="tabpanel">
+                <div><small class="form-text">Seyehat ve Turizm Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-88" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-88">Turistik Yerler</label></div>
+                    <div class="form-check"><input id="formCheck-89" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-89">Otel ve Konaklama</label></div>
+                    <div class="form-check"><input id="formCheck-90" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-90">Ulaşım</label></div>
+                    
+                </div>
+            </div>
+            <div id="tab-44" class="tab-pane active" role="tabpanel">
+                <div><small class="form-text">Diğer Kategorini Seç</small>
+                    <div class="form-check"><input id="formCheck-91" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-91">Satış Ortaklığı</label></div>
+                    <div class="form-check"><input id="formCheck-92" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-92">Yarışmalar ve Çekilişler</label></div>
+                    <div class="form-check"><input id="formCheck-94" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-94">Kitlesel Fonlama</label></div>
+                    <div class="form-check"><input id="formCheck-95" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-95">Elektronik Basın Kiti (EPK)</label></div>
+                    <div class="form-check"><input id="formCheck-96" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-96">Hayran Kitlesi</label></div>
+                    <div class="form-check"><input id="formCheck-97" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-97">Memes</label></div>
+                    <div class="form-check"><input id="formCheck-98" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-98">Kişisel</label></div>
+                    <div class="form-check"><input id="formCheck-99" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-99">Evcil Hayvan</label></div>
+                    <div class="form-check"><input id="formCheck-100" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-100">Portfolio</label></div>
+                    <div class="form-check"><input id="formCheck-101" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-101">Toplumsal Figür</label></div>
+                    <div class="form-check"><input id="formCheck-103" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-103">Din</label></div>
+                    <div class="form-check"><input id="formCheck-106" class="form-check-input" type="checkbox" name="category" /><label class="form-check-label" for="formCheck-106" style="display: flex;">Diğer<input class="form-control digerindigeri" type="text" style="" /></label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><button class="btn btn-primary benimbutton w-100" type="button">Kaydet</button>
+                                    </div>
+                                    <div class="linkduzenlemekisim">
                                         <h5>SEO Ayarları</h5>
                                         <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" checked=""><label class="form-check-label" for="formCheck-14">Arama motoru sonuçlarında göster.</label></div>
-                                        <div class="mb-3"><small class="form-text ayarminibaslik">favicon</small><input type="file" id="faviconupload-1" class="myformcontrol4 myfileinput"><small class="form-text">Favicon tarayıcının sekme barında görünen ikondur.</small></div>
+                                        <div class="mb-3"><small class="form-text ayarminibaslik">favicon</small><input type="file" id="faviconupload-1" class="myformcontrol4 myfileinput"><small class="form-text">Favicon tarayıcının sekme barında görünen ikondur.</small><button class="btn btn-primary benimbutton d-block w-100 mt-2" type="button">Kaydet</button></div>
                                         <div class="mb-1"><small class="form-text ayarminibaslik">Özel meta ayarları</small>
                                             <div class="input-group myinputgroup"><input class="form-control myformcontrol4" type="text" placeholder="Sayfa Başlığı"><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div><small class="form-text">Sayfa başlığını burada ayarladığınız özel bir başlıkla tamamen değiştirin.</small>
                                             <div class="input-group myinputgroup"><input class="form-control myformcontrol4" type="text" placeholder="Meta açıklaması"><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div><small class="form-text" style="line-height: 1.1rem;display: block;">Arama motorlarında daha iyi sıralanması için biolink sayfanız için özel bir meta açıklama ayarlayın.</small>
                                         </div>
-                                        <div class="mb-3"><small class="form-text ayarminibaslik">OpenGraph Görseli</small><input type="file" id="faviconupload" class="myformcontrol4 myfileinput"><small class="form-text">Bağlantınız paylaşıldığı zaman linkle beraber görüntülecek ön izleme görselidir. Tavsiye edilen çözünürlük&nbsp;<strong>1200px x 630px</strong>'dir.</small></div>
+                                        <div class="mb-3"><small class="form-text ayarminibaslik">OpenGraph Görseli</small><input type="file" id="faviconupload" class="myformcontrol4 myfileinput"><small class="form-text">Bağlantınız paylaşıldığı zaman linkle beraber görüntülecek ön izleme görselidir. Tavsiye edilen çözünürlük&nbsp;<strong>1200px * 630px</strong>'dir.</small><button class="btn btn-primary benimbutton d-block w-100 mt-2" type="button">Kaydet</button></div>
                                     </div>
                                 </form>
                             </div>
@@ -1015,154 +1250,154 @@
                 <div class="modal-body" id="zengin-modal-body">
                     <div class="zengintabs">
                         <ul class="nav nav-tabs nav-fill" role="tablist">
-                            <li class="nav-item zengin-nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#tab-16" data-bs-target="#youtubelinkmodal">
+                            <li class="nav-item zengin-nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#tab-16" data-bs-target="#youtubelinkmodal" data-type="1">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-youtube"></i>
                                             <p>Youtube Videosu</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item zengin-nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#instagrammodal">
+                            <li class="nav-item zengin-nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#instagrammodal" data-type="2">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-instagram"></i>
                                             <p>Instagram Gönderisi</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="modal" href="#gorselmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="modal" href="#gorselmodal" data-type="3">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="far fa-image"></i>
                                             <p>Görsel<br>Bloğu</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#paragrafmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#paragrafmodal" data-type="4">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-paragraph"></i>
                                             <p>Paragraf<br>Bloğu</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#tweetmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#tweetmodal" data-type="5">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-twitter"></i>
                                             <p>Tweet<br></p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#whatsappmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#whatsappmodal" data-type="6">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-whatsapp"></i>
                                             <p>Whatsapp<br>Bağlantısı</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#abonelikmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#abonelikmodal" data-type="7">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-envelope"></i>
                                             <p>Mail<br>Aboneliği</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#trendyolmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#trendyolmodal" data-type="8">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><img src="assets/img/trendyol-seeklogo.com.svg">
                                             <p>Trendyol<br>Ürünü</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sahibindenmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sahibindenmodal" data-type="9">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><img class="sahibinden" src="assets/img/header_2x%20e128c32e6c3632344852d5d52f683bba.png">
                                             <p>Sahibinden<br>İlanı</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sesmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sesmodal" data-type="10">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-voicemail"></i>
                                             <p>Ses<br>Dosyası</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#soundcloudmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#soundcloudmodal" data-type="11">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-soundcloud"></i>
                                             <p>SoundCloud<br>Bloğu</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#shopiermodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#shopiermodal" data-type="12">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><img src="assets/img/shopier.png">
                                             <p>Shopier<br>Ürünü</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#baslikmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#baslikmodal" data-type="13">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-font text-dark"></i>
                                             <p>Başlık</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#ayracmodal" data-type="14">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-grip-lines"></i>
                                             <p>Ayraç</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal" data-type="15">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-reddit-alien"></i>
                                             <p>Reddit<br>Gönderisi</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#vcardmodal" data-type="16">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="far fa-address-card text-dark"></i>
                                             <p>VCard</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#discordmodal" data-type="17">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-discord"></i>
                                             <p>Discord</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#applemusicmodal" data-type="18">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-apple" style="color: black;"></i>
                                             <p>Apple<br>Music</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#spotifymodal" data-type="19">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-spotify" style="color: #1DB954;"></i>
                                             <p>Spotify</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#vimeomodal" data-type="20">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-vimeo-v" style="color: #1AB7EA;"></i>
                                             <p>Vimeo</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#twitchmodal" data-type="21">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-twitch" style="color: #6441a5;"></i>
                                             <p>Twitch</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#tiktokmodal" data-type="22">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-tiktok" style="color: #ff0050;">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -1172,94 +1407,80 @@
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#rssmodal" data-type="23">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-rss" style="color: #f26522;"></i>
                                             <p>RSS</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sssmodal" data-type="24">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-question" style="color: black;"></i>
                                             <p>SSS</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#facebookmodal" data-type="25">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-facebook-f" style="color: #4267B2;"></i>
                                             <p>Facebook</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#htmlmodal" data-type="26">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fab fa-html5" style="color: #ff5733;"></i>
                                             <p>Özel<br>HTML</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#videomodal">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-file-video" style="color: black;"></i>
                                             <p>Video Dosyası</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#gerisayim" data-type="27">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-clock" style="color: black;"></i>
                                             <p>Geri Sayım</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#eylemecagri" data-type="28">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="far fa-comments" style="color: black;"></i>
                                             <p>Eylem<br>Çağrısı</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#dosyamodal" data-type="29">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-file-download" style="color: black;"></i>
                                             <p>Dosya</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#hariciogemodal" data-type="30">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-money-bill" style="color: var(--bs-success);"></i>
                                             <p>Harici Öğe</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#anchormodal" data-type="31">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-anchor" style="color: #5000B9;"></i>
                                             <p>Anchor FM</p>
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
-                                    <div class="text-center d-grid align-items-center zenginlinkdiv">
-                                        <div><i class="fas fa-images" style="color: black;"></i>
-                                            <p>Reddit<br>Gönderisi</p>
-                                        </div>
-                                    </div>
-                                </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
-                                    <div class="text-center d-grid align-items-center zenginlinkdiv">
-                                        <div><i class="fas fa-clock" style="color: black;"></i>
-                                            <p>Reddit<br>Gönderisi</p>
-                                        </div>
-                                    </div>
-                                </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#redditmodal">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#paylasmodal" data-type="32">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-share-alt" style="color: #007bff;"></i>
-                                            <p>Reddit<br>Gönderisi</p>
+                                            <p>Paylaş</p>
                                         </div>
                                     </div>
                                 </a></li>
@@ -1320,211 +1541,224 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="normallinkmodal">
+    <form id="normallinkmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Link Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Link Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Bağlantı Linki</small><input type="url" class="myformcontrol4"></div>
+                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Bağlantı Linki</small><input class="myformcontrol4" type="url" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="vcardmodal">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    </form>
+    <form id="vcardmodal" class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">VCard Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">VCard Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Profilinize bir VCard indirme düğmesi ekleyin.</p><small class="form-text">Adınız</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Soy Adınız</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Telefon Numaranız</small><input type="tel" class="myformcontrol4 mb-2"><small class="form-text">E-Postanız</small><input type="email" class="myformcontrol4 mb-2"><small class="form-text">Web Siteniz</small><input type="url" class="myformcontrol4"><small class="form-text">Şirket Adı</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Adres</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea>
+                    <p class="gilroylight">Profilinize bir VCard indirme düğmesi ekleyin.</p><small class="form-text">Adınız</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Soy Adınız</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Telefon Numaranız</small><input class="myformcontrol4 mb-2" type="tel" /><small class="form-text">E-Postanız</small><input class="myformcontrol4 mb-2" type="email" /><small class="form-text">Web Siteniz</small><input class="myformcontrol4" type="url" /><small class="form-text">Şirket Adı</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Adres</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="hariciogemodal">
+    </form>
+    <form id="hariciogemodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Harici Öğe Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Harici Öğe Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Öğe URL'si</small><input type="url" class="myformcontrol4"><small class="form-text">İsim</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Açıklama</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea><small class="form-text">Fiyat</small><input type="number" class="myformcontrol4" placeholder="50TL"></div>
+                <div class="modal-body"><small class="form-text">Öğe URL&#39;si</small><input class="myformcontrol4" type="url" /><small class="form-text">İsim</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Açıklama</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea><small class="form-text">Fiyat</small><input class="myformcontrol4" type="number" placeholder="50TL" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="shopiermodal">
+    </form>
+    <form id="shopiermodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Shopier</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Shopier</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Ürün ID'sini girin</small><input type="text" class="myformcontrol4 mb-2"></div>
+                <div class="modal-body"><small class="form-text">Ürün ID&#39;sini girin</small><input class="myformcontrol4 mb-2" type="text" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="discordmodal">
+    </form>
+    <form id="discordmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Discord Sunucusu Ekleyin</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Discord Sunucusu Ekleyin</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Sunucu ID'sini girin</small><input type="text" class="myformcontrol4 mb-2"></div>
+                <div class="modal-body"><small class="form-text">Sunucu ID&#39;sini girin</small><input class="myformcontrol4 mb-2" type="text" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="soundcloudmodal">
+    </form>
+    <form id="soundcloudmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">SoundCloud</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">SoundCloud</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Link</small><input type="url" class="myformcontrol4"></div>
+                <div class="modal-body"><small class="form-text">Link</small><input class="myformcontrol4" type="url" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="spotifymodal">
+    </form>
+    <form id="spotifymodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Spotify</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Spotify</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Spotify Şarkı, Albüm, Şov veya Bölüm URL'nizi yapıştırın, onu profilinizde bir oyuncu olarak gösterelim.</p><small class="form-text">Link</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">Spotify Şarkı, Albüm, Şov veya Bölüm URL&#39;nizi yapıştırın, onu profilinizde bir oyuncu olarak gösterelim.</p><small class="form-text">Link</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="anchormodal">
+    </form>
+    <form id="anchormodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Anchor</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Anchor</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Anchor FM Podcast URL'nizi yapıştırın ve bunu profilinizde oynanabilir bir podcast olarak gösterelim.</p><small class="form-text">Podcast Linki</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">Anchor FM Podcast URL&#39;nizi yapıştırın ve bunu profilinizde oynanabilir bir podcast olarak gösterelim.</p><small class="form-text">Podcast Linki</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="vimeomodal">
+    </form>
+    <form id="vimeomodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Vimeo Modal</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Vimeo Modal</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Vimeo URL'nizi yapıştırın, bunu profilinizde bir video olarak gösterelim.</p><small class="form-text">Link</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">Vimeo URL&#39;nizi yapıştırın, bunu profilinizde bir video olarak gösterelim.</p><small class="form-text">Link</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="rssmodal">
+    </form>
+    <form id="rssmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">RSS Feed</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">RSS Feed</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Sayfanızda basit bir dinamik RSS Akışı görüntüleyin.</p><small class="form-text">RSS Feed URL</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">Sayfanızda basit bir dinamik RSS Akışı görüntüleyin.</p><small class="form-text">RSS Feed URL</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="applemusicmodal">
+    </form>
+    <form id="applemusicmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Apple Music</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Apple Music</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Apple Music URL'nizi yapıştırın, onu profilinizde çalınabilir bir şarkı olarak gösterelim.</p><small class="form-text">Link</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">Apple Music URL&#39;nizi yapıştırın, onu profilinizde çalınabilir bir şarkı olarak gösterelim.</p><small class="form-text">Link</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="epostamodal">
+    </form>
+    <form id="epostamodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Kayıt Formu</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Kayıt Formu</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">Mailchimp için e-postaları yakalayın veya Webhook aracılığıyla yakalanan e-postaları alın.<br></p><small class="form-text">İsim</small><input type="text" class="myformcontrol4">
+                    <p class="gilroylight">Mailchimp için e-postaları yakalayın veya Webhook aracılığıyla yakalanan e-postaları alın.<br /></p><small class="form-text">İsim</small><input class="myformcontrol4" type="text" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="eylemecagri">
+    </form>
+    <form id="eylemecagri" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Eyleme Çağrı</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Eyleme Çağrı</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body"><small class="form-text">Eylem Tipini Seçin</small>
                     <div class="position-relative"><select class="myformcontrol4 form-control">
-                            <option value="12" selected="">Telefon Çağrısı</option>
+                            <option value="12" selected>Telefon Çağrısı</option>
                             <option value="13">SMS Gönderme</option>
                             <option value="14">Mail Gönderme</option>
-                        </select><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down position-absolute" style="right: 1rem;top: 50%;transform: translateY(-50%);">
+                        </select><svg class="bi bi-chevron-down position-absolute" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" style="right: 1rem;top: 50%;transform: translateY(-50%);">
                             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                        </svg></div><small class="form-text">Telefon numarası veya mail adresini girin</small><input type="text" class="myformcontrol4"><small class="form-text">İsim</small><input type="text" class="myformcontrol4">
+                        </svg></div><small class="form-text">Telefon numarası veya mail adresini girin</small><input class="myformcontrol4" type="text" /><small class="form-text">İsim</small><input class="myformcontrol4" type="text" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="gerisayim">
+    </form>
+    <form id="gerisayim" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Geri Sayım</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Geri Sayım</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Geri sayım başlığı</small><input type="text" class="form-control myformcontrol4"><small class="form-text">Tarih ve saat girin</small><input class="myformcontrol4" type="datetime-local"></div>
+                <div class="modal-body"><small class="form-text">Geri sayım başlığı</small><input class="form-control myformcontrol4" type="text" /><small class="form-text">Tarih ve saat girin</small><input class="myformcontrol4" type="datetime-local" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="tiktokmodal">
+    </form>
+    <form id="tiktokmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">TikTok</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">TikTok</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="gilroylight">TikTok Video URL'nizi yapıştırın, bunu profilinizde bir video olarak gösterelim.</p><small class="form-text">Link</small><input type="url" class="myformcontrol4">
+                    <p class="gilroylight">TikTok Video URL&#39;nizi yapıştırın, bunu profilinizde bir video olarak gösterelim.</p><small class="form-text">Link</small><input class="myformcontrol4" type="url" />
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="whatsappmodal">
+    </form>
+    <form id="paylasmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">WhatsApp Bağlantısı Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Paylaş</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Destek Hattımız"><small class="form-text">WhatsApp Numarası</small><input type="tel" class="myformcontrol4" placeholder="+905123456789"></div>
+                <div class="modal-body">
+                    <p class="gilroylight">İnsanların dilediğiniz linki tek tıkla sosyal medya platformlarında paylaşmalarına olanak sağlayan &quot;Paylaş Butonu&quot; ekleyin.</p><small class="form-text">Hedef Link</small><input class="myformcontrol4" type="url" /><small class="form-text">İsim</small><input class="myformcontrol4" type="text" />
+                </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="abonelikmodal">
+    </form>
+    <form id="whatsappmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Mail Aboneliği</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">WhatsApp Bağlantısı Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Destek Hattımız" /><small class="form-text">WhatsApp Numarası</small><input class="myformcontrol4" type="tel" placeholder="+905123456789" /></div>
+                <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
+            </div>
+        </div>
+    </form>
+    <form id="abonelikmodal" class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Mail Aboneliği</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>Bu blok ile takipçileriniz size abone olup yeni içeriklerinizden anında haberdar olabilir.</p>
@@ -1532,12 +1766,12 @@
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="ayracmodal">
+    </form>
+    <form id="ayracmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Ayraç</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Ayraç</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>Bu blok ile biolink sayfanızdaki içerikleri ince bir ayraç ile ayırabilirsiniz.</p>
@@ -1545,133 +1779,133 @@
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="youtubelinkmodal">
+    </form>
+    <form id="youtubelinkmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Youtube Videosu Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Youtube Videosu Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input type="text" class="myformcontrol4 mb-2"><small class="form-text">Video Linki</small><input type="url" class="myformcontrol4" placeholder="https://youtube.com"></div>
+                <div class="modal-body"><small class="form-text">Bağlantı Başlığı</small><input class="myformcontrol4 mb-2" type="text" /><small class="form-text">Video Linki</small><input class="myformcontrol4" type="url" placeholder="https://youtube.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="tweetmodal">
+    </form>
+    <form id="tweetmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Tweet Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Tweet Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Tweet Linki</small><input type="url" class="myformcontrol4" placeholder="https://twitter.com"></div>
+                <div class="modal-body"><small class="form-text">Tweet Linki</small><input class="myformcontrol4" type="url" placeholder="https://twitter.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="redditmodal">
+    </form>
+    <form id="redditmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Reddit Gönderisi</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Reddit Gönderisi</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Gönderi Linki</small><input type="url" class="myformcontrol4" placeholder="https://reddit.com"></div>
+                <div class="modal-body"><small class="form-text">Gönderi Linki</small><input class="myformcontrol4" type="url" placeholder="https://reddit.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="sahibindenmodal">
+    </form>
+    <form id="sahibindenmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Sahibinden İlan</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Sahibinden İlan</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">İlanın Linki</small><input type="url" class="myformcontrol4" placeholder="https://sahibinden.com"></div>
+                <div class="modal-body"><small class="form-text">İlanın Linki</small><input class="myformcontrol4" type="url" placeholder="https://sahibinden.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="trendyolmodal">
+    </form>
+    <form id="trendyolmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Trendyol Ürün</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Trendyol Ürün</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Ürünün Linki</small><input type="url" class="myformcontrol4" placeholder="https://trendyol.com"></div>
+                <div class="modal-body"><small class="form-text">Ürünün Linki</small><input class="myformcontrol4" type="url" placeholder="https://trendyol.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="instagrammodal">
+    </form>
+    <form id="instagrammodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Instagram Gönderisi Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Instagram Gönderisi Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text"></small><small class="form-text">Gönderi Linki</small><input type="url" class="myformcontrol4" placeholder="https://instagram.com"></div>
+                <div class="modal-body"><small class="form-text"></small><small class="form-text">Gönderi Linki</small><input class="myformcontrol4" type="url" placeholder="https://instagram.com" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="gorselmodal">
+    </form>
+    <form id="gorselmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Görsel Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Görsel Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Görsel Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Etkinlik Afişimiz"><small class="form-text">Görsel Dosyasını Ekle</small><input type="file" class="form-control myformcontrol4 myfileinput" accept="image/*"></div>
+                <div class="modal-body"><small class="form-text">Görsel Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Etkinlik Afişimiz" /><small class="form-text">Görsel Dosyasını Ekle</small><input class="form-control myformcontrol4 myfileinput" type="file" accept="image/*" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="videomodal">
+    </form>
+    <form id="videomodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Video Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Video Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Video Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Etkinlik Afişimiz"><small class="form-text">Video Dosyasını Ekle</small><input type="file" class="form-control myformcontrol4 myfileinput" accept="video/*"></div>
+                <div class="modal-body"><small class="form-text">Video Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Etkinlik Afişimiz" /><small class="form-text">Video Dosyasını Ekle</small><input class="form-control myformcontrol4 myfileinput" type="file" accept="video/*" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="dosyamodal">
+    </form>
+    <form id="dosyamodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Dosya Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Dosya Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Dosya Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Etkinlik Afişimiz"><small class="form-text">Dosyanızı Ekleyin</small><input type="file" class="form-control myformcontrol4 myfileinput"></div>
+                <div class="modal-body"><small class="form-text">Dosya Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Etkinlik Afişimiz" /><small class="form-text">Dosyanızı Ekleyin</small><input class="form-control myformcontrol4 myfileinput" type="file" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="sesmodal">
+    </form>
+    <form id="sesmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Ses Dosyası Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Ses Dosyası Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Ses Dosyası Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Yeni Şarkım"><small class="form-text">Ses Dosyasını Ekle</small><input type="file" class="form-control myformcontrol4 myfileinput" accept="audio/*"></div>
+                <div class="modal-body"><small class="form-text">Ses Dosyası Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Yeni Şarkım" /><small class="form-text">Ses Dosyasını Ekle</small><input class="form-control myformcontrol4 myfileinput" type="file" accept="audio/*" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="paragrafmodal">
+    </form>
+    <form id="paragrafmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Paragraf Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Paragraf Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Paragraf Başlığı</small><input type="text" class="myformcontrol4 mb-2" placeholder="Mardin Gezi Notlarım"><small class="form-text">Paragraf Metni</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea></div>
+                <div class="modal-body"><small class="form-text">Paragraf Başlığı</small><input class="myformcontrol4 mb-2" type="text" placeholder="Mardin Gezi Notlarım" /><small class="form-text">Paragraf Metni</small><textarea class="d-block w-100 myformcontrol4" rows="3"></textarea></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="htmlmodal">
+    </form>
+    <form id="htmlmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Paragraf Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Paragraf Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body gilroylight">
                     <p>Tam olarak ihtiyacınız olanı görüntülemek için herhangi bir özel HTML türü ekleyin.</p><small class="form-text">HTML Kodu</small><textarea class="d-block w-100 myformcontrol4" rows="3" style="resize: vertical;"></textarea>
@@ -1679,18 +1913,19 @@
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="baslikmodal">
+    </form>
+    <form id="baslikmodal" class="modal fade" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Başlık Ekle</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title">Başlık Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body"><small class="form-text">Başlık</small><input type="text" class="myformcontrol4 mb-2" placeholder="Favori ürünlerimin linkleri"></div>
+                <div class="modal-body"><small class="form-text">Başlık</small><input class="myformcontrol4 mb-2" type="text" placeholder="Favori ürünlerimin linkleri" /></div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
         </div>
-    </div>
+    </form>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
@@ -1711,6 +1946,8 @@
     <script src="assets/js/step-form.js"></script>
     <script src="assets/js/xToggle.js"></script>
     <script src="assets/js/credit-card.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/scrolldown.js"></script>
     <script src="assets/js/zenginmodal.js"></script>
 </body>
 

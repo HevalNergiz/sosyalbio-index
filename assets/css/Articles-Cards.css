@@ -229,3 +229,28 @@
   /*overflow-x: hidden;*/
 }
 
+.destektalebitable {
+  font-family: 'Gilroy-Light ☞';
+}
+
+.zenginicon {
+  position: absolute;
+  top: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #4b6dff;
+  font-size: .8rem;
+  background: #cfd8ff;
+  border-radius: 1rem;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  line-height: .8rem;
+}
+
+.zenginicon i {
+  line-height: 0;
+}
+
