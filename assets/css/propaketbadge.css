@@ -1,0 +1,28 @@
+.zenginlinkdiv {
+  position: relative;
+}
+
+.prolazim::before {
+  display: block;
+  /*height: 3rem;*/
+  /*width: 3rem;*/
+  content: "Pro";
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 99999;
+  font-size: .8rem;
+  background-color: #4d6bf5;
+  font-family: 'Gilroy-Bold ☞';
+  padding: 2px 9px;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.zenginlinkdiv.prolazim {
+  border-style: solid;
+  border-color: #4d6bf5;
+  border-width: 2PX;
+}
+

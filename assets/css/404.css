@@ -1,0 +1,16 @@
+@media (min-width: 576px) {
+  .biggesttext {
+    font-size: 16vw!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .biggesttext {
+    font-size: 32vw!important;
+  }
+}
+
+.gilroylight {
+  font-family: 'Gilroy-Light ☞';
+}
+

@@ -1,0 +1,42 @@
+.arkaplan-1 {
+  background: linear-gradient(180deg, #F7C0EC 0%, #A7BDEA 100%);
+}
+
+.arkaplan-2 {
+  background: linear-gradient(180deg, #FFCAA6 0%, #F86594 100%);
+}
+
+.arkaplan-3 {
+  background: linear-gradient(180deg, #832388 0%, #E3436B 51.56%, #F0772F 100%);
+}
+
+.arkaplan-4 {
+  background: linear-gradient(180deg, #7C65A9 0%, #96D4CA 100%);
+}
+
+.arkaplan-5 {
+  background: linear-gradient(180deg, #00FF87 0%, #60EFFF 100%);
+}
+
+.arkaplan-6 {
+  background: linear-gradient(318.42deg, #F2F4F8 -6.97%, #FFFFFF 103.05%);
+}
+
+.arkaplan-7 {
+  background: linear-gradient(180deg, #000000 0%, #383838 100%);
+}
+
+.arkaplan-8 {
+  background: linear-gradient(180deg, #F7C0EC 0%, #A7BDEA 100%);
+}
+
+.404text {
+  font-size: 16vw;
+}
+
+@media (max-width: 576px) {
+  .smallertext {
+    font-size: 1rem;
+  }
+}
+

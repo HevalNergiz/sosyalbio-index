@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/404.css">
+    <link rel="stylesheet" href="assets/css/arkaplanlar.css">
     <link rel="stylesheet" href="assets/css/Articles-Cards.css">
     <link rel="stylesheet" href="assets/css/baglantilarlist.css">
     <link rel="stylesheet" href="assets/css/big-features.css">
@@ -23,9 +25,11 @@
     <link rel="stylesheet" href="assets/css/card-carousel.css">
     <link rel="stylesheet" href="assets/css/color-picker.css">
     <link rel="stylesheet" href="assets/css/cool-effects.css">
+    <link rel="stylesheet" href="assets/css/Countdown.css">
     <link rel="stylesheet" href="assets/css/create.css">
     <link rel="stylesheet" href="assets/css/duzeltme.css">
     <link rel="stylesheet" href="assets/css/Features-Cards.css">
+    <link rel="stylesheet" href="assets/css/FeedEk.css">
     <link rel="stylesheet" href="assets/css/haritaduzelt.css">
     <link rel="stylesheet" href="assets/css/horizontalscroll.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightpick@1.3.4/css/lightpick.min.css">
@@ -40,6 +44,8 @@
     <link rel="stylesheet" href="assets/css/personalpage.css">
     <link rel="stylesheet" href="assets/css/preview.css">
     <link rel="stylesheet" href="assets/css/Pricing-Yearly--Monthly.css">
+    <link rel="stylesheet" href="assets/css/propaketbadge.css">
+    <link rel="stylesheet" href="assets/css/renkler.css">
     <link rel="stylesheet" href="assets/css/scrolltrigger.css">
     <link rel="stylesheet" href="assets/css/Simple-Bootstrap-Chat.css">
     <link rel="stylesheet" href="assets/css/singlepage.css">
@@ -54,7 +60,7 @@
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body style="background-color: #f5f5f5;">
+<body class="logged" style="background-color: #f5f5f5;">
     <header class="aramaheader" style="/*background: #f2f4f8;*/">
         <div class="container" style="/*padding-bottom: 0px;*//*position: relative;*//*height: 0px;*/">
             <nav class="navbar navbar-light navbar-expand text-center d-md-flex" style="align-items: end!important;text-align: right!important;margin-bottom: 0px;/*position: fixed;*//*top: 0%;*//*height: 90px;*/">
@@ -123,13 +129,13 @@
                 <div class="col anaduzenlemesolcol">
                     <div class="linksekmeleri">
                         <ul class="nav nav-tabs guzelnavtabs" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Linkler</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Linkler</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Görünüm</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">İstatistikler</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-4">Ayarlar</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Ayarlar</a></li>
                         </ul>
                         <div class="tab-content linkduzenlemetabcontent">
-                            <div class="tab-pane" role="tabpanel" id="tab-1">
+                            <div class="tab-pane active" role="tabpanel" id="tab-1">
                                 <div class="accordion istatistikaccordion beyazok" role="tablist" id="accordion-istatistik">
                                     <div class="accordion-item neumorphic">
                                         <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-istatistik .item-1" aria-expanded="false" aria-controls="accordion-istatistik .item-1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bar-chart-line">
@@ -153,7 +159,7 @@
                                         <section class="module">
                                             <div class="modulemaindiv">
                                                 <div class="dragplace">
-                                                    <div class="zenginicon"><i class="fas fa-link"></i></div>
+                                                    <div class="zenginicon"><i class="fab fa-instagram"></i></div>
                                                     <div class="sixiconsdiv"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-grip-vertical">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                             <circle cx="9" cy="5" r="1"></circle>
@@ -165,8 +171,8 @@
                                                         </svg></div>
                                                 </div>
                                                 <div class="modulecontent">
-                                                    <h6 class="blokheading"><input type="text" id="blokheading-1" class="degistirilebilirinput" value="Heval Nergiz"><button class="penbutton" type="button" onclick="document.getElementById(&#39;blokheading-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
-                                                    <h6 class="bloklink"><input type="text" id="bloklink-1" class="degistirilebilirinput" value="https://hevalnergiz.com"><button class="penbutton" type="button" onclick="document.getElementById(&#39;bloklink-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
+                                                    <h6 class="blokheading"><input type="text" id="blokheading-1" class="degistirilebilirinput" value="Instagram"><button class="penbutton" type="button" onclick="document.getElementById(&#39;blokheading-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
+                                                    <h6 class="bloklink"><input type="text" id="bloklink-1" class="degistirilebilirinput" value="https://instagram.com"><button class="penbutton" type="button" onclick="document.getElementById(&#39;bloklink-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
                                                     <div id="iconaccordion-1" class="linkiconlari"><button class="linkiconlari-button" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion .item-3" aria-expanded="true" aria-controls="thumbinailaccordion .item3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-photo">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                                 <line x1="15" y1="8" x2="15.01" y2="8"></line>
@@ -456,6 +462,312 @@
                                                 </div>
                                             </div>
                                         </section>
+                                        <section class="module">
+                                            <div class="modulemaindiv">
+                                                <div class="dragplace">
+                                                    <div class="zenginicon"><i class="fas fa-link"></i></div>
+                                                    <div class="sixiconsdiv"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-grip-vertical">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                            <circle cx="9" cy="5" r="1"></circle>
+                                                            <circle cx="9" cy="12" r="1"></circle>
+                                                            <circle cx="9" cy="19" r="1"></circle>
+                                                            <circle cx="15" cy="5" r="1"></circle>
+                                                            <circle cx="15" cy="12" r="1"></circle>
+                                                            <circle cx="15" cy="19" r="1"></circle>
+                                                        </svg></div>
+                                                </div>
+                                                <div class="modulecontent">
+                                                    <h6 class="blokheading"><input type="text" id="blokheading-2" class="degistirilebilirinput" value="Web Sitem"><button class="penbutton" type="button" onclick="document.getElementById(&#39;blokheading-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
+                                                    <h6 class="bloklink"><input type="text" id="bloklink-2" class="degistirilebilirinput" value="https://hevalnergiz.com"><button class="penbutton" type="button" onclick="document.getElementById(&#39;bloklink-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
+                                                    <div id="iconaccordion-2" class="linkiconlari"><button class="linkiconlari-button" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion .item-3" aria-expanded="true" aria-controls="thumbinailaccordion .item3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-photo">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <line x1="15" y1="8" x2="15.01" y2="8"></line>
+                                                                <rect x="4" y="4" width="16" height="16" rx="3"></rect>
+                                                                <path d="M4 15l4 -4a3 5 0 0 1 3 0l5 5"></path>
+                                                                <path d="M14 14l1 -1a3 5 0 0 1 3 0l2 2"></path>
+                                                            </svg></button>
+                                                        <div class="form-check linkiconlari-button lockblok"><input class="form-check-input" type="checkbox" id="formCheck-71" style="display: none;" checked=""><label class="form-check-label" for="formCheck-71"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-lock-open unlock-icon">
+                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                    <rect x="5" y="11" width="14" height="10" rx="2"></rect>
+                                                                    <circle cx="12" cy="16" r="1"></circle>
+                                                                    <path d="M8 11v-5a4 4 0 0 1 8 0"></path>
+                                                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-lock lockicon">
+                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                    <rect x="5" y="11" width="14" height="10" rx="2"></rect>
+                                                                    <circle cx="12" cy="16" r="1"></circle>
+                                                                    <path d="M8 11v-4a4 4 0 0 1 8 0v4"></path>
+                                                                </svg></label></div><button class="linkiconlari-button" data-bs-toggle="collapse" data-bs-target="#dateaccordion .item-2" aria-expanded="true" aria-controls="accordion-2 .item1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-calendar-minus">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <rect x="4" y="5" width="16" height="16" rx="2"></rect>
+                                                                <line x1="16" y1="3" x2="16" y2="7"></line>
+                                                                <line x1="8" y1="3" x2="8" y2="7"></line>
+                                                                <line x1="4" y1="11" x2="20" y2="11"></line>
+                                                                <line x1="10" y1="16" x2="14" y2="16"></line>
+                                                            </svg></button><button class="linkiconlari-button yukselis mt-1" data-bs-toggle="collapse" data-bs-target="#istatistikaccordion .item-1" aria-expanded="true" aria-controls="#istatistikaccordion .item1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chart-line" style="margin-top: 0px;">
+                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                <line x1="4" y1="19" x2="20" y2="19"></line>
+                                                                <polyline points="4 15 8 9 12 11 16 6 20 10"></polyline>
+                                                            </svg>&nbsp;15 Tıklanma<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-up">
+                                                                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
+                                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-down">
+                                                                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path>
+                                                            </svg></button>
+                                                    </div>
+                                                </div><a class="trashlink" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trash">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                        <line x1="4" y1="7" x2="20" y2="7"></line>
+                                                        <line x1="10" y1="11" x2="10" y2="17"></line>
+                                                        <line x1="14" y1="11" x2="14" y2="17"></line>
+                                                        <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+                                                        <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+                                                    </svg></a>
+                                                <div class="togglediv"><label class="switch">
+  <input checked type="checkbox">
+  <span class="slider round"></span>
+</label></div>
+                                            </div>
+                                            <div class="linkiconlari-accordion">
+                                                <div id="istatistikaccordion-1" class="accordion" role="tablist">
+                                                    <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#iconaccordion-1">
+                                                        <div class="accordion-heading">
+                                                            <p>Link İstatistikleri</p><a class="accordion-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg" data-bs-toggle="collapse" data-bs-target="#istatistikaccordion .item-1" aria-expanded="true" aria-controls="#istatistikaccordion .item1">
+                                                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
+                                                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"></path>
+                                                                </svg></a>
+                                                        </div>
+                                                        <div class="accordion-body">
+                                                            <div>
+                                                                <ul class="nav nav-tabs nav-justified guzelnavtabs blokicitabs" role="tablist">
+                                                                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-13">Genel Bakış</a></li>
+                                                                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-14">Detaylı Grafik</a></li>
+                                                                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-15">Listeler</a></li>
+                                                                </ul>
+                                                                <div class="tab-content">
+                                                                    <div class="tab-pane" role="tabpanel" id="tab-45">
+                                                                        <h5>Bu link son 7 günde&nbsp;<span class="heading-viewscore">15</span> kişi tarafından tıklandı. 👏</h5>
+                                                                        <div class="row gy-2 row-cols-1 row-cols-md-2 linkistatistikleri-row">
+                                                                            <div class="col">
+                                                                                <div class="genelgecerdiv dusus">
+                                                                                    <p class="linkistatistikleri-tiklanma">Toplam Görüntülenme</p>
+                                                                                    <p class="linkistatistikleri-tiklanmasayisi">35%</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-up">
+                                                                                        <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
+                                                                                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down gizle">
+                                                                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                                                                    </svg>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col">
+                                                                                <div class="genelgecerdiv yukselis">
+                                                                                    <p class="linkistatistikleri-tiklanma">Tıklanma Oranı</p>
+                                                                                    <p class="linkistatistikleri-tiklanmasayisi">46%</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-up gizle">
+                                                                                        <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
+                                                                                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down">
+                                                                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                                                                    </svg>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <ul class="list-unstyled ozetliste">
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span>🇹🇷</span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En büyük kitleniz:</p>
+                                                                                        <p class="icerikdetayi">Türkiye</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-link-45deg">
+                                                                                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
+                                                                                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok tıklanma aldığınız platform:</p>
+                                                                                        <p class="icerikdetayi">Twitter</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-phone">
+                                                                                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
+                                                                                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok görüntülendiğiniz ekran:</p>
+                                                                                        <p class="icerikdetayi">Mobil</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="tab-pane" role="tabpanel" id="tab-46">
+                                                                        <div class="moduldekichart"><canvas data-bss-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4d6bf5&quot;,&quot;borderColor&quot;:&quot;#4d6bf5&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;],&quot;fill&quot;:false,&quot;borderWidth&quot;:&quot;3&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;display&quot;:true,&quot;text&quot;:&quot;Tıklanma Sayısı&quot;,&quot;fontFamily&quot;:&quot;'Gilroy-Bold ☞'&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;beginAtZero&quot;:false}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;beginAtZero&quot;:false}}]}}}"></canvas></div>
+                                                                        <div class="moduldekichart"><canvas data-bss-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4d6bf5&quot;,&quot;borderColor&quot;:&quot;#4d6bf5&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;],&quot;fill&quot;:false,&quot;borderWidth&quot;:&quot;3&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;display&quot;:true,&quot;text&quot;:&quot;Görüntülenme Sayısı&quot;,&quot;fontFamily&quot;:&quot;'Gilroy-Bold ☞'&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;beginAtZero&quot;:false}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;beginAtZero&quot;:false}}]}}}"></canvas></div>
+                                                                        <div><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Instagram&quot;,&quot;TikTok&quot;,&quot;LinkedIn&quot;,&quot;Facebook&quot;,&quot;Sosyal.bio&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;TopRefeers&quot;,&quot;backgroundColor&quot;:[&quot;#ffe68c&quot;,&quot;#ffd0a8&quot;,&quot;#d9d1ff&quot;,&quot;#b7efff&quot;,&quot;rgb(75,109,255)&quot;],&quot;borderColor&quot;:[&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;],&quot;data&quot;:[&quot;15&quot;,&quot;10&quot;,&quot;5&quot;,&quot;7&quot;,&quot;3&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;},&quot;reverse&quot;:false,&quot;position&quot;:&quot;left&quot;},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;position&quot;:&quot;top&quot;,&quot;display&quot;:true,&quot;text&quot;:&quot;Referanslar&quot;}}}"></canvas></div>
+                                                                    </div>
+                                                                    <div class="tab-pane" role="tabpanel" id="tab-47">
+                                                                        <h5>En Çok Görüntülendiği Ülkeler</h5>
+                                                                        <ul class="list-unstyled ozetliste">
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span>🇹🇷</span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">Konum #1</p>
+                                                                                        <p class="icerikdetayi">Türkiye</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span>🇩🇪</span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">Konum #2</p>
+                                                                                        <p class="icerikdetayi">Almanya</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span>🇪🇪</span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">Konum #3</p>
+                                                                                        <p class="icerikdetayi">Estonya</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <h5>En Büyük Referanslar</h5>
+                                                                        <ul class="list-unstyled ozetliste">
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-link-45deg">
+                                                                                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
+                                                                                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok tıklanma aldığınız platform #1</p>
+                                                                                        <p class="icerikdetayi">Twitter</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-link-45deg">
+                                                                                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
+                                                                                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok tıklanma aldığınız platform #2</p>
+                                                                                        <p class="icerikdetayi">Instagram</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-link-45deg">
+                                                                                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
+                                                                                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok tıklanma aldığınız platform #3</p>
+                                                                                        <p class="icerikdetayi">Google</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <h5>En Çok Görüntülendiğiniz Cihazlar</h5>
+                                                                        <ul class="list-unstyled ozetliste">
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-phone">
+                                                                                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
+                                                                                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok görüntülendiğiniz ekran #1</p>
+                                                                                        <p class="icerikdetayi">Mobil</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pc-display">
+                                                                                                <path fill-rule="evenodd" d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok görüntülendiğiniz ekran #2</p>
+                                                                                        <p class="icerikdetayi">Masaüstü</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="ozellistelistitem">
+                                                                                <div class="ozellistemaindiv">
+                                                                                    <div class="emojidiv"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-tablet-landscape">
+                                                                                                <path d="M1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4zm-1 8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8z"></path>
+                                                                                                <path d="M14 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"></path>
+                                                                                            </svg></span></div>
+                                                                                    <div class="icerikkismidiv">
+                                                                                        <p class="icerikbasligi">En çok görüntülendiğiniz ekran #3</p>
+                                                                                        <p class="icerikdetayi">Tablet</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="dateaccordion-1" class="accordion" role="tablist">
+                                                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#iconaccordion-1">
+                                                        <div class="accordion-heading">
+                                                            <p>Linkin Gösterileceği Tarih Aralığı</p><a class="accordion-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg" data-bs-toggle="collapse" data-bs-target="#dateaccordion .item-2" aria-expanded="true" aria-controls="#istatistikaccordion .item1">
+                                                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
+                                                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"></path>
+                                                                </svg></a>
+                                                        </div>
+                                                        <div class="accordion-body datepick">
+                                                            <p style="text-align: center;color: #454d64;font-size: .8rem;">Eğer linkinizin her zaman görüntülenmesini istiyorsanız bu alanı boş bırakınız.</p><small class="form-text">Başlangıç Tarihini Seçiniz</small>
+                                                            <div style="/*padding: 0 .5rem;*/position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-calendar" style="position: absolute;top: 50%;left: 1rem;transform: translateY(-50%);">
+                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                    <rect x="4" y="5" width="16" height="16" rx="2"></rect>
+                                                                    <line x1="16" y1="3" x2="16" y2="7"></line>
+                                                                    <line x1="8" y1="3" x2="8" y2="7"></line>
+                                                                    <line x1="4" y1="11" x2="20" y2="11"></line>
+                                                                    <line x1="11" y1="15" x2="12" y2="15"></line>
+                                                                    <line x1="12" y1="15" x2="12" y2="18"></line>
+                                                                </svg><input class="form-control myformcontrol" type="date" style="margin-bottom: 1rem;"></div><small class="form-text">Bitiş Tarihini Seçiniz</small>
+                                                            <div style="/*padding: 0 .5rem;*/position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-calendar" style="position: absolute;top: 50%;left: 1rem;transform: translateY(-50%);">
+                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                                    <rect x="4" y="5" width="16" height="16" rx="2"></rect>
+                                                                    <line x1="16" y1="3" x2="16" y2="7"></line>
+                                                                    <line x1="8" y1="3" x2="8" y2="7"></line>
+                                                                    <line x1="4" y1="11" x2="20" y2="11"></line>
+                                                                    <line x1="11" y1="15" x2="12" y2="15"></line>
+                                                                    <line x1="12" y1="15" x2="12" y2="18"></line>
+                                                                </svg><input class="form-control myformcontrol" type="date"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="thumbinailaccordion-1" class="accordion" role="tablist">
+                                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#iconaccordion-1">
+                                                        <div class="accordion-heading">
+                                                            <p>Link Bloğu Icon'u</p><a class="accordion-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion .item-3" aria-expanded="true" aria-controls="#istatistikaccordion .item1">
+                                                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
+                                                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"></path>
+                                                                </svg></a>
+                                                        </div>
+                                                        <div class="accordion-body datepick" style="height: auto;"><small class="form-text">Link bloğunuzun yanında görünmesini istediğiniz icon'u seçin</small>
+                                                            <div style="/*padding: 0 .5rem;*/position: relative;"><input type="text" class="form-control myformcontrol icp icp-auto" value="fas fa-anchor"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -618,25 +930,25 @@
                                                                 <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2" name="cercevesekli" data-bs-toggle="modal" data-bs-target="#ozelarkaplanmodal"><label class="form-check-label" for="formCheck-2"><img src="assets/img/arkaplan-1.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-15" name="cercevesekli"><label class="form-check-label" for="formCheck-15"><img src="assets/img/arkaplan-2.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-15" name="arkaplanrengi"><label class="form-check-label" for="formCheck-15"><img src="assets/img/arkaplan-2.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-16" name="cercevesekli"><label class="form-check-label" for="formCheck-16"><img src="assets/img/arkaplan-3.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-16" name="arkaplanrengi"><label class="form-check-label" for="formCheck-16"><img src="assets/img/arkaplan-3.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-25" name="cercevesekli"><label class="form-check-label" for="formCheck-25"><img src="assets/img/arkaplan-4.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-25" name="arkaplanrengi"><label class="form-check-label" for="formCheck-25"><img src="assets/img/arkaplan-4.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-35" name="cercevesekli"><label class="form-check-label" for="formCheck-35"><img src="assets/img/arkaplan-5.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-35" name="arkaplanrengi"><label class="form-check-label" for="formCheck-35"><img src="assets/img/arkaplan-5.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-34" name="cercevesekli"><label class="form-check-label" for="formCheck-34"><img src="assets/img/arkaplan-6.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-34" name="arkaplanrengi"><label class="form-check-label" for="formCheck-34"><img src="assets/img/arkaplan-6.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-33" name="cercevesekli"><label class="form-check-label" for="formCheck-33"><img src="assets/img/arkaplan-7.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-33" name="arkaplanrengi"><label class="form-check-label" for="formCheck-33"><img src="assets/img/arkaplan-7.svg"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-32" name="cercevesekli"><label class="form-check-label" for="formCheck-32"><img src="assets/img/arkaplan-8.svg"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-32" name="arkaplanrengi"><label class="form-check-label" for="formCheck-32"><img src="assets/img/arkaplan-8.svg"></label></div>
                                                             </div>
                                                         </div>
                                                         <div class="modal fade" role="dialog" tabindex="-1" id="ozelarkaplanmodal">
@@ -648,12 +960,12 @@
                                                                     <div class="modal-body pt-0">
                                                                         <div>
                                                                             <ul class="nav nav-tabs nav-justified guzelnavtabs" role="tablist">
-                                                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-36">Düz Renk</a></li>
+                                                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-36">Düz Renk</a></li>
                                                                                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-37">Gradient</a></li>
-                                                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-38">Görsel</a></li>
+                                                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-38">Görsel</a></li>
                                                                             </ul>
                                                                             <div class="tab-content">
-                                                                                <div class="tab-pane" role="tabpanel" id="tab-36">
+                                                                                <div class="tab-pane active" role="tabpanel" id="tab-36">
                                                                                     <form>
                                                                                         <div class="row">
                                                                                             <div class="col" style="padding: 12px;align-items: center;display: grid;">
@@ -698,7 +1010,7 @@
                                                                                         <div class="modal-footer" style="padding: .75rem 0 0;"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Kaydet</button></div>
                                                                                     </form>
                                                                                 </div>
-                                                                                <div class="tab-pane active" role="tabpanel" id="tab-38">
+                                                                                <div class="tab-pane" role="tabpanel" id="tab-38">
                                                                                     <form>
                                                                                         <div class="row">
                                                                                             <div class="col dosyayuklediv">
@@ -741,16 +1053,16 @@
                                                         <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">Köşeler</p>
                                                         <div class="row row-cols-2 row-cols-md-4">
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-17" name="cercevesekli"><label class="form-check-label" for="formCheck-17"><img src="assets/img/kose1.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-17" name="kosesekli"><label class="form-check-label" for="formCheck-17"><img src="assets/img/kose1.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-18" name="cercevesekli"><label class="form-check-label" for="formCheck-18"><img src="assets/img/kose2.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-18" name="kosesekli"><label class="form-check-label" for="formCheck-18"><img src="assets/img/kose2.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-19" name="cercevesekli"><label class="form-check-label" for="formCheck-19"><img src="assets/img/kose3.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-19" name="kosesekli"><label class="form-check-label" for="formCheck-19"><img src="assets/img/kose3.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-20" name="cercevesekli"><label class="form-check-label" for="formCheck-20"><img src="assets/img/kose4.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-20" name="kosesekli"><label class="form-check-label" for="formCheck-20"><img src="assets/img/kose4.png"></label></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -758,16 +1070,16 @@
                                                         <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">Gölgeler</p>
                                                         <div class="row row-cols-2 row-cols-md-4">
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-21" name="cercevesekli"><label class="form-check-label" for="formCheck-21"><img src="assets/img/golge1.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-21" name="golgesekli"><label class="form-check-label" for="formCheck-21"><img src="assets/img/golge1.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-22" name="cercevesekli"><label class="form-check-label" for="formCheck-22"><img src="assets/img/golge2.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-22" name="golgesekli"><label class="form-check-label" for="formCheck-22"><img src="assets/img/golge2.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-23" name="cercevesekli"><label class="form-check-label" for="formCheck-23"><img src="assets/img/golge3.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-23" name="golgesekli"><label class="form-check-label" for="formCheck-23"><img src="assets/img/golge3.png"></label></div>
                                                             </div>
                                                             <div class="col">
-                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-24" name="cercevesekli"><label class="form-check-label" for="formCheck-24"><img src="assets/img/golge4.png"></label></div>
+                                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-24" name="golgesekli"><label class="form-check-label" for="formCheck-24"><img src="assets/img/golge4.png"></label></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -823,7 +1135,7 @@
                                     <div><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Instagram&quot;,&quot;TikTok&quot;,&quot;LinkedIn&quot;,&quot;Facebook&quot;,&quot;Sosyal.bio&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;TopRefeers&quot;,&quot;backgroundColor&quot;:[&quot;#ffe68c&quot;,&quot;#ffd0a8&quot;,&quot;#d9d1ff&quot;,&quot;#b7efff&quot;,&quot;rgb(75,109,255)&quot;],&quot;borderColor&quot;:[&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;,&quot;#f2f4f8&quot;],&quot;data&quot;:[&quot;15&quot;,&quot;10&quot;,&quot;5&quot;,&quot;7&quot;,&quot;3&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:true,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;},&quot;reverse&quot;:false,&quot;position&quot;:&quot;left&quot;},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;position&quot;:&quot;top&quot;,&quot;display&quot;:false}}}"></canvas></div>
                                 </div>
                             </div>
-                            <div class="tab-pane active ayarlarpane" role="tabpanel" id="tab-4">
+                            <div class="tab-pane ayarlarpane" role="tabpanel" id="tab-4">
                                 <form>
                                     <div class="linkduzenlemekisim">
                                         <h5>Bağlantı Ayarları</h5><small class="form-text ayarminibaslik">Kısa URL</small>
@@ -1314,7 +1626,7 @@
                                     </div>
                                 </a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sesmodal" data-type="10">
-                                    <div class="text-center d-grid align-items-center zenginlinkdiv">
+                                    <div class="text-center d-grid align-items-center zenginlinkdiv prolazim">
                                         <div><i class="fas fa-voicemail"></i>
                                             <p>Ses<br>Dosyası</p>
                                         </div>
@@ -1414,7 +1726,7 @@
                                         </div>
                                     </div>
                                 </a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sssmodal" data-type="24">
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="modal" href="#sss-modal" data-type="24">
                                     <div class="text-center d-grid align-items-center zenginlinkdiv">
                                         <div><i class="fas fa-question" style="color: black;"></i>
                                             <p>SSS</p>
@@ -1538,6 +1850,17 @@
                         <div class="col"><a class="zenginlink" href="#"></a></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="facebookmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Facebook Gönderisi</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><small class="form-text">Facebook gönderi URL'si</small><input type="url" class="myformcontrol4"></div>
+                <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Oluştur</button></div>
             </div>
         </div>
     </div>
@@ -1775,6 +2098,9 @@
                 </div>
                 <div class="modal-body">
                     <p>Bu blok ile biolink sayfanızdaki içerikleri ince bir ayraç ile ayırabilirsiniz.</p>
+<div class="input-group myinputgroup renksecicigroup"><span class="input-group-text">Ayraç Rengi</span>
+    <div class="input-group-text"><input id="color-divider" class="form-control form-control-color" type="color" value="#080808"/></div>
+</div>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Ekle</button></div>
             </div>
@@ -1926,6 +2252,37 @@
         </div>
     </form>
 
+<div id="facebookmodal" class="modal fade" role="dialog" tabindex="-1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Facebook Gönderisi</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><small class="form-text">Facebook gönderi URL&#39;si</small><input class="myformcontrol4" type="url" /></div>
+            <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Oluştur</button></div>
+        </div>
+    </div>
+</div>
+
+<form id="sss-modal" class="modal fade" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Sık Sorulan Sorular Ekle</h4><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="formici">
+                    <div class="mb-2 benim cloned-input">
+                        <div class="extend"><small class="form-text">Başlık</small><input class="form-control myformcontrol4" type="text" /></div>
+                        <div class="extend"><small class="form-text">Açıklama</small><textarea class="form-control myformcontrol4 textareainput" rows="3"></textarea></div>
+                    </div>
+                </div><button class="btn btn-primary benimbutton addmore" type="submit" value="add more"><i class="fas fa-plus"></i><span> Ekle</span></button>
+            </div>
+            <div class="modal-footer"><button class="btn btn-light benimbutton-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary benimbutton" type="button">Oluştur</button></div>
+        </div>
+    </div>
+</form>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
@@ -1945,8 +2302,12 @@
     <script src="assets/js/sortable.js"></script>
     <script src="assets/js/step-form.js"></script>
     <script src="assets/js/xToggle.js"></script>
+    <script src="assets/js/Countdown.js"></script>
     <script src="assets/js/credit-card.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/FeedEk.js"></script>
+    <script src="assets/js/form-repeat.js"></script>
+    <script src="assets/js/rssfeed.js"></script>
     <script src="assets/js/scrolldown.js"></script>
     <script src="assets/js/zenginmodal.js"></script>
 </body>

@@ -1,0 +1,688 @@
+/* ****************
+ Klasik Tema 
+ **************** */
+
+.klasiktema.renk-1 .baglantiblogu {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.klasiktema.renk-2 .baglantiblogu {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.klasiktema.renk-3 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.klasiktema.renk-4 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.klasiktema.renk-5 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.klasiktema.renk-6 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.klasiktema.renk-7 .baglantiblogu {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.klasiktema .baglantiblogu {
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.09);
+}
+
+.personalpage.klasiktema.renk-1 {
+  background-color: #000000;
+  color: #fff;
+}
+
+.personalpage.klasiktema.renk-2 {
+  background-color: #fff;
+  color: #000000;
+}
+
+.personalpage.klasiktema.renk-3 {
+  background-color: #6DCAFF;
+  color: #ffffff;
+}
+
+.personalpage.klasiktema.renk-4 {
+  background-color: #9C6DFF;
+  color: #ffffff;
+}
+
+.personalpage.klasiktema.renk-5 {
+  background-color: #33C200;
+  color: #ffffff;
+}
+
+.personalpage.klasiktema.renk-6 {
+  background-color: #FF8787;
+  color: #ffffff;
+}
+
+.personalpage.klasiktema.renk-7 {
+  background-color: #FFF387;
+  color: #000000;
+}
+
+.personalpage.klasiktema.renk-1 .socialiconshere a, .personalpage.klasiktema.renk-3 .socialiconshere a, .personalpage.klasiktema.renk-4 .socialiconshere a, .personalpage.klasiktema.renk-5 .socialiconshere a, .personalpage.klasiktema.renk-6 .socialiconshere a {
+  color: #ffffff;
+}
+
+.personalpage.klasiktema.renk-7 .socialiconshere a, .personalpage.klasiktema.renk-2 .socialiconshere a {
+  color: #000;
+}
+
+.personalpage.klasiktema .zenginbloklardanbiri {
+  box-shadow: none;
+}
+
+.personalpage.klasiktema.renk-1 .bellicon {
+  background-color: rgba(180,180,180,0.38);
+  color: #d6d6d6;
+}
+
+.personalpage.klasiktema.renk-2 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #444d63;
+}
+
+.personalpage.klasiktema.renk-7 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #000000;
+}
+
+.personalpage.klasiktema.renk-3 .bellicon, .personalpage.klasiktema.renk-4 .bellicon, .personalpage.klasiktema.renk-5 .bellicon, .personalpage.klasiktema.renk-6 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #ffffff;
+}
+
+/* ****************
+ Basit Tema 
+ **************** */
+
+.basittema.renk-1 .baglantiblogu {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.basittema.renk-2 .baglantiblogu {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.basittema.renk-3 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.basittema.renk-4 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.basittema.renk-5 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.basittema.renk-6 .baglantiblogu {
+  background-color: #fff;
+  color: #000;
+}
+
+.basittema.renk-7 .baglantiblogu {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.basittema .baglantiblogu {
+  box-shadow: none;
+}
+
+.personalpage.basittema.renk-1 {
+  background-color: #000000;
+  color: #fff;
+}
+
+.personalpage.basittema.renk-2 {
+  background-color: #fff;
+  color: #000000;
+}
+
+.personalpage.basittema.renk-3 {
+  background-color: #6DCAFF;
+  color: #ffffff;
+}
+
+.personalpage.basittema.renk-4 {
+  background-color: #9C6DFF;
+  color: #ffffff;
+}
+
+.personalpage.basittema.renk-5 {
+  background-color: #33C200;
+  color: #ffffff;
+}
+
+.personalpage.basittema.renk-6 {
+  background-color: #FF8787;
+  color: #ffffff;
+}
+
+.personalpage.basittema.renk-7 {
+  background-color: #FFF387;
+  color: #000000;
+}
+
+.personalpage.basittema.renk-1 .socialiconshere a, .personalpage.basittema.renk-3 .socialiconshere a, .personalpage.basittema.renk-4 .socialiconshere a, .personalpage.basittema.renk-5 .socialiconshere a, .personalpage.basittema.renk-6 .socialiconshere a {
+  color: #ffffff;
+}
+
+.personalpage.basittema.renk-7 .socialiconshere a, .personalpage.basittema.renk-2 .socialiconshere a {
+  color: #000;
+}
+
+.personalpage.basittema .zenginbloklardanbiri {
+  box-shadow: none;
+}
+
+.personalpage.basittema.renk-1 .bellicon {
+  background-color: rgba(180,180,180,0.38);
+  color: #d6d6d6;
+}
+
+.personalpage.basittema.renk-2 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #444d63;
+}
+
+.personalpage.basittema.renk-7 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #000000;
+}
+
+.personalpage.basittema.renk-3 .bellicon, .personalpage.basittema.renk-4 .bellicon, .personalpage.basittema.renk-5 .bellicon, .personalpage.basittema.renk-6 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #ffffff;
+}
+
+/* ****** Brutal Tema ***** */
+
+.personalpage.brutaltema.renk-1 {
+  background: #000;
+  color: #fff;
+}
+
+.personalpage.brutaltema.renk-2 {
+  background: #ffffff;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-3 {
+  background: #C3E9FF;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-4 {
+  background: #C5C3FF;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-5 {
+  background: #CFFFC3;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-6 {
+  background: #FFE0E0;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-7 {
+  background: #FFFBD4;
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-8 {
+  background: #6DCAFF;
+  color: #ffffff;
+}
+
+.personalpage.brutaltema.renk-9 {
+  background: #AD6DFF;
+  color: #ffffff;
+}
+
+.personalpage.brutaltema.renk-1 .socialiconshere a, .personalpage.brutaltema.renk-8 .socialiconshere a, .personalpage.brutaltema.renk-9 .socialiconshere a {
+  color: #fff;
+}
+
+.personalpage.brutaltema.renk-2 .socialiconshere a, .personalpage.brutaltema.renk-3 .socialiconshere a, .personalpage.brutaltema.renk-4 .socialiconshere a, .personalpage.brutaltema.renk-5 .socialiconshere a, .personalpage.brutaltema.renk-6 .socialiconshere a, .personalpage.brutaltema.renk-7 .socialiconshere a {
+  color: #000000;
+}
+
+.personalpage.brutaltema.renk-1 .baglantiblogu {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px #fff;
+}
+
+.personalpage.brutaltema.renk-2 .baglantiblogu {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px #000000;
+}
+
+.personalpage.brutaltema.renk-7 .baglantiblogu, .personalpage.brutaltema.renk-8 .baglantiblogu, .personalpage.brutaltema.renk-9 .baglantiblogu {
+  color: #000;
+}
+
+.personalpage.brutaltema.renk-3 .baglantiblogu, .personalpage.brutaltema.renk-4 .baglantiblogu, .personalpage.brutaltema.renk-5 .baglantiblogu, .personalpage.brutaltema.renk-6 .baglantiblogu, .personalpage.brutaltema.renk-7 .baglantiblogu, .personalpage.brutaltema.renk-8 .baglantiblogu, .personalpage.brutaltema.renk-9 .baglantiblogu {
+  border: 2px solid #000000;
+  box-shadow: 5px 5px #000000;
+}
+
+.personalpage.brutaltema.renk-3 .baglantiblogu, .personalpage.brutaltema.renk-4 .baglantiblogu, .personalpage.brutaltema.renk-5 .baglantiblogu, .personalpage.brutaltema.renk-6 .baglantiblogu {
+  color: #fff;
+}
+
+.personalpage.brutaltema.renk-3 .baglantiblogu {
+  background-color: #6dcaff;
+}
+
+.personalpage.brutaltema.renk-4 .baglantiblogu {
+  background-color: #9C6DFF;
+}
+
+.personalpage.brutaltema.renk-5 .baglantiblogu {
+  background-color: #33C200;
+}
+
+.personalpage.brutaltema.renk-6 .baglantiblogu {
+  background-color: #ff8787;
+}
+
+.personalpage.brutaltema.renk-7 .baglantiblogu {
+  background-color: #fff387;
+}
+
+.personalpage.brutaltema.renk-8 .baglantiblogu, .personalpage.brutaltema.renk-9 .baglantiblogu {
+  background-color: #FFE600;
+}
+
+.personalpage.brutaltema.renk-1 .bellicon {
+  background-color: rgba(180,180,180,0.38);
+  color: #d6d6d6;
+}
+
+.personalpage.brutaltema.renk-8 .bellicon {
+  background-color: rgba(255,255,255,0.38);
+  color: #ffffff;
+}
+
+.personalpage.brutaltema.renk-9 .bellicon {
+  background-color: rgba(0,0,0,0.38);
+  color: #ffffff;
+}
+
+.personalpage.brutaltema.renk-2 .bellicon, .personalpage.brutaltema.renk-3 .bellicon, .personalpage.brutaltema.renk-4 .bellicon, .personalpage.brutaltema.renk-5 .bellicon, .personalpage.brutaltema.renk-6 .bellicon, .personalpage.brutaltema.renk-7 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #000000;
+}
+
+.personalpage.brutaltema .zenginbloklardanbiri {
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.personalpage.brutaltema .baglantiblogu {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+/* ***** Neumorphism ***** */
+
+.personalpage.neumorphismtema.renk-1 {
+  background-color: #212121;
+  color: #fff;
+}
+
+.personalpage.neumorphismtema.renk-1 .zenginbaslik, .personalpage.neumorphismtema.renk-3 .zenginbaslik, .personalpage.neumorphismtema.renk-4 .zenginbaslik, .personalpage.neumorphismtema.renk-5 .zenginbaslik, .personalpage.neumorphismtema.renk-6 .zenginbaslik, .personalpage.glasstema.renk-1 .zenginbaslik, .personalpage.glasstema.renk-3 .zenginbaslik, .personalpage.glasstema.renk-4 .zenginbaslik, .personalpage.glasstema.renk-5 .zenginbaslik, .personalpage.glasstema.renk-7 .zenginbaslik, .personalpage.klasiktema.renk-1 .zenginbaslik, .personalpage.klasiktema.renk-3 .zenginbaslik, .personalpage.klasiktema.renk-4 .zenginbaslik, .personalpage.klasiktema.renk-5 .zenginbaslik, .personalpage.klasiktema.renk-6 .zenginbaslik, .personalpage.basittema.renk-1 .zenginbaslik, .personalpage.basittema.renk-3 .zenginbaslik, .personalpage.basittema.renk-4 .zenginbaslik, .personalpage.basittema.renk-5 .zenginbaslik, .personalpage.basittema.renk-6 .zenginbaslik {
+  color: #fff;
+}
+
+.personalpage.neumorphismtema.renk-1 .baglantiblogu p, .personalpage.neumorphismtema.renk-3 .baglantiblogu p, .personalpage.neumorphismtema.renk-4 .baglantiblogu p, .personalpage.neumorphismtema.renk-5 .baglantiblogu p, .personalpage.neumorphismtema.renk-6 .baglantiblogu p, .personalpage.glasstema.renk-1 .baglantiblogu p, .personalpage.glasstema.renk-3 .baglantiblogu p, .personalpage.glasstema.renk-4 .baglantiblogu p, .personalpage.glasstema.renk-5 .baglantiblogu p, .personalpage.glasstema.renk-7 .baglantiblogu p, .personalpage.klasiktema.renk-1 .baglantiblogu p, .personalpage.klasiktema.renk-3 .baglantiblogu p, .personalpage.klasiktema.renk-4 .baglantiblogu p, .personalpage.klasiktema.renk-5 .baglantiblogu p, .personalpage.klasiktema.renk-6 .baglantiblogu p, .personalpage.basittema.renk-1 .baglantiblogu p, .personalpage.basittema.renk-3 .baglantiblogu p, .personalpage.basittema.renk-4 .baglantiblogu p, .personalpage.basittema.renk-5 .baglantiblogu p, .personalpage.basittema.renk-6 .baglantiblogu p, .personalpage.outlinetema.renk-1 .baglantiblogu p, .personalpage.brutaltema.renk-1 .baglantiblogu p {
+  color: #fff;
+}
+
+.personalpage.neumorphismtema.renk-2 {
+  background-color: #eaeaea;
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-2 .zenginbaslik, .personalpage.neumorphismtema.renk-7 .zenginbaslik {
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-3 {
+  background-color: #6dcaff;
+  color: #ffffff;
+}
+
+.personalpage.neumorphismtema.renk-4 {
+  background-color: #9c6dff;
+  color: #ffffff;
+}
+
+.personalpage.neumorphismtema.renk-5 {
+  background-color: #33C200;
+  color: #ffffff;
+}
+
+.personalpage.neumorphismtema.renk-6 {
+  background-color: #FF8787;
+  color: #ffffff;
+}
+
+.personalpage.neumorphismtema.renk-7 {
+  background-color: #FFF387;
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-1 .socialiconshere a, .personalpage.neumorphismtema.renk-3 .socialiconshere a, .personalpage.neumorphismtema.renk-4 .socialiconshere a, .personalpage.neumorphismtema.renk-5 .socialiconshere a, .personalpage.neumorphismtema.renk-6 .socialiconshere a {
+  color: #ffffff;
+}
+
+.personalpage.outlinetema.renk-2 .socialiconshere a, .personalpage.outlinetema.renk-7 .socialiconshere a {
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-2 .socialiconshere a, .personalpage.neumorphismtema.renk-7 .socialiconshere a {
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-1 .baglantiblogu {
+  color: #fff;
+  background-color: #212121;
+  box-shadow: -6px -6px 16px #323030, 6px 6px 16px #000000;
+}
+
+.personalpage.neumorphismtema.renk-2 .baglantiblogu {
+  color: #000000;
+  background-color: #eaeaea;
+  box-shadow: -6px -6px 16px #F9F9F9, 6px 6px 16px #BEBEBE;
+}
+
+.personalpage.neumorphismtema.renk-3 .baglantiblogu {
+  color: #ffffff;
+  background-color: #6dcaff;
+  box-shadow: -6px -6px 20px #7DE8FF, 6px 6px 16px #5DACD9;
+}
+
+.personalpage.neumorphismtema.renk-4 .baglantiblogu {
+  color: #ffffff;
+  background-color: #9c6dff;
+  box-shadow: -6px -6px 20px #B37DFF, 6px 6px 16px #855DD9;
+}
+
+.personalpage.neumorphismtema.renk-5 .baglantiblogu {
+  color: #ffffff;
+  background-color: #33C200;
+  box-shadow: -6px -6px 20px #3BDF00, 6px 6px 16px #2BA500;
+}
+
+.personalpage.neumorphismtema.renk-6 .baglantiblogu {
+  color: #ffffff;
+  background-color: #FF8787;
+  box-shadow: -6px -6px 20px #FF9B9B, 6px 6px 16px #D97373;
+}
+
+.personalpage.neumorphismtema.renk-7 .baglantiblogu {
+  color: #000000;
+  background-color: #FFF387;
+  box-shadow: -6px -6px 20px #FFFF9B, 6px 6px 16px #D9CF73;
+}
+
+.personalpage.neumorphismtema.renk-2 .bellicon, .personalpage.neumorphismtema.renk-7 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #000000;
+}
+
+.personalpage.neumorphismtema.renk-3 .bellicon, .personalpage.neumorphismtema.renk-4 .bellicon, .personalpage.neumorphismtema.renk-5 .bellicon, .personalpage.neumorphismtema.renk-6 .bellicon {
+  background: rgba(0,0,0,0.15);
+  color: #ffffff;
+}
+
+.personalpage.neumorphismtema.renk-1 .bellicon {
+  background: rgba(159,159,159,0.15);
+  color: #fff;
+}
+
+.neumorphismtema .baglantiblogu.zenginbloklardanbiri {
+  box-shadow: none!important;
+}
+
+/* ***** Outline Tema ***** */
+
+.personalpage.outlinetema.renk-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.personalpage.outlinetema.renk-2 {
+  background-color: #ffffff;
+}
+
+.personalpage.outlinetema.renk-3 {
+  background-color: #c3e9ff;
+}
+
+.personalpage.outlinetema.renk-4 {
+  background-color: #c5c3ff;
+}
+
+.personalpage.outlinetema.renk-5 {
+  background-color: #cfffc3;
+}
+
+.personalpage.outlinetema.renk-6 {
+  background-color: #FFE0E0;
+}
+
+.personalpage.outlinetema.renk-7 {
+  background-color: #FFFBD5;
+}
+
+.personalpage.outlinetema.renk-2, .personalpage.outlinetema.renk-3, .personalpage.outlinetema.renk-4, .personalpage.outlinetema.renk-5, .personalpage.outlinetema.renk-6, .personalpage.outlinetema.renk-7 {
+  color: #000000;
+}
+
+.personalpage.outlinetema.renk-1 .baglantiblogu {
+  color: #fff;
+  border-color: #fff;
+}
+
+.personalpage.outlinetema.renk-2 .baglantiblogu, .personalpage.outlinetema.renk-3 .baglantiblogu, .personalpage.outlinetema.renk-4 .baglantiblogu, .personalpage.outlinetema.renk-5 .baglantiblogu, .personalpage.outlinetema.renk-6 .baglantiblogu, .personalpage.outlinetema.renk-7 .baglantiblogu {
+  color: #000000;
+  border-color: #000000;
+}
+
+.personalpage.outlinetema .baglantiblogu {
+  border-style: solid;
+  border-width: 2px;
+  background: none;
+}
+
+.personalpage.outlinetema.renk-1 .socialiconshere a {
+  color: #fff;
+}
+
+.personalpage.outlinetema.renk-2 .socialiconshere a, .personalpage.outlinetema.renk-3 .socialiconshere a, .personalpage.outlinetema.renk-4 .socialiconshere a, .personalpage.outlinetema.renk-5 .socialiconshere a, .personalpage.outlinetema.renk-6 .socialiconshere a, .personalpage.outlinetema.renk-7 .socialiconshere a {
+  color: #000000;
+}
+
+.personalpage.outlinetema .baglantiblogu {
+  box-shadow: none!important;
+  font-family: 'Gilroy-Medium ☞';
+}
+
+.personalpage.outlinetema .baglantiblogu.zenginbloklardanbiri {
+  box-shadow: none!important;
+  border-width: 0!important;
+  border: none!important;
+}
+
+.personalpage.outlinetema.renk-2 .bellicon, .personalpage.outlinetema.renk-3 .bellicon, .personalpage.outlinetema.renk-4 .bellicon, .personalpage.outlinetema.renk-5 .bellicon, .personalpage.outlinetema.renk-6 .bellicon, .personalpage.outlinetema.renk-7 .bellicon {
+  color: #000;
+  background: rgba(0,0,0,0.15);
+}
+
+.personalpage.outlinetema.renk-1 .bellicon {
+  color: #d6d6d6;
+  background: rgba(180,180,180,0.38);
+}
+
+/* *** Glass Tema *** */
+
+.personalpage.glasstema.renk-3 .bellicon, .personalpage.glasstema.renk-4 .bellicon, .personalpage.glasstema.renk-5 .bellicon, .personalpage.glasstema.renk-6 .bellicon {
+  color: #ffffff;
+  background: rgba(0,0,0,0.15);
+}
+
+.personalpage.glasstema.renk-1 .bellicon, .personalpage.glasstema.renk-7 .bellicon {
+  color: #d6d6d6;
+  background: rgba(180,180,180,0.38);
+}
+
+.personalpage.glasstema.renk-2 .bellicon {
+  color: #000000;
+  background: rgba(180,180,180,0.38);
+}
+
+.personalpage.glasstema .baglantiblogu {
+  box-shadow: none!important;
+  font-family: 'Gilroy-Medium ☞';
+}
+
+.personalpage.glasstema .baglantiblogu.zenginbloklardanbiri {
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.personalpage.glasstema.renk-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.personalpage.glasstema.renk-2 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.personalpage.glasstema.renk-3 {
+  background: linear-gradient(180deg, #ADBEEB 0%, #F5C0EC 100%);
+  color: #fff;
+}
+
+.personalpage.glasstema.renk-4 {
+  background: linear-gradient(180deg, #FFC5A5 0%, #F96995 100%);
+  color: #000000;
+}
+
+.personalpage.glasstema.renk-5 {
+  background: linear-gradient(180deg, #8D2786 0%, #EF7038 100%);
+  color: #fff;
+}
+
+.personalpage.glasstema.renk-6 {
+  background: linear-gradient(180deg, #04FF8C 0%, #56F1F2 100%);
+  color: #000000;
+}
+
+.personalpage.glasstema.renk-7 {
+  background: linear-gradient(180deg, #7E6AAB 0%, #94CBC8 100%);
+  color: #ffffff;
+}
+
+.personalpage.glasstema.renk-1 .socialiconshere a, .personalpage.glasstema.renk-3 .socialiconshere a, .personalpage.glasstema.renk-5 .socialiconshere a, .personalpage.glasstema.renk-7 .socialiconshere a {
+  color: #fff;
+}
+
+.personalpage.glasstema.renk-2 .socialiconshere a, .personalpage.glasstema.renk-4 .socialiconshere a, .personalpage.glasstema.renk-6 .socialiconshere a {
+  color: #000000;
+}
+
+.personalpage.glasstema.renk-1 .baglantiblogu {
+  background-color: #3F3F3F;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #717171;
+}
+
+.personalpage.glasstema.renk-2 .baglantiblogu {
+  background-color: #efefef;
+  color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e8e8e8;
+}
+
+.personalpage.glasstema.renk-3 .baglantiblogu, .personalpage.glasstema.renk-5 .baglantiblogu {
+  background: rgba(255,255,255,0.22);
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+
+.personalpage.glasstema.renk-4 .baglantiblogu {
+  background: rgba(255,255,255,0.22);
+  color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+
+.personalpage.glasstema.renk-5 .baglantiblogu {
+  background: rgba(255,255,255,0.22);
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+
+.personalpage.glasstema.renk-6 .baglantiblogu {
+  background: rgba(255,255,255,0.22);
+  color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+
+.personalpage.glasstema.renk-7 .baglantiblogu {
+  background: rgba(255,255,255,0.22);
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+

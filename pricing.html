@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/404.css">
+    <link rel="stylesheet" href="assets/css/arkaplanlar.css">
     <link rel="stylesheet" href="assets/css/Articles-Cards.css">
     <link rel="stylesheet" href="assets/css/baglantilarlist.css">
     <link rel="stylesheet" href="assets/css/big-features.css">
@@ -23,9 +25,11 @@
     <link rel="stylesheet" href="assets/css/card-carousel.css">
     <link rel="stylesheet" href="assets/css/color-picker.css">
     <link rel="stylesheet" href="assets/css/cool-effects.css">
+    <link rel="stylesheet" href="assets/css/Countdown.css">
     <link rel="stylesheet" href="assets/css/create.css">
     <link rel="stylesheet" href="assets/css/duzeltme.css">
     <link rel="stylesheet" href="assets/css/Features-Cards.css">
+    <link rel="stylesheet" href="assets/css/FeedEk.css">
     <link rel="stylesheet" href="assets/css/haritaduzelt.css">
     <link rel="stylesheet" href="assets/css/horizontalscroll.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -38,6 +42,8 @@
     <link rel="stylesheet" href="assets/css/personalpage.css">
     <link rel="stylesheet" href="assets/css/preview.css">
     <link rel="stylesheet" href="assets/css/Pricing-Yearly--Monthly.css">
+    <link rel="stylesheet" href="assets/css/propaketbadge.css">
+    <link rel="stylesheet" href="assets/css/renkler.css">
     <link rel="stylesheet" href="assets/css/scrolltrigger.css">
     <link rel="stylesheet" href="assets/css/Simple-Bootstrap-Chat.css">
     <link rel="stylesheet" href="assets/css/singlepage.css">
@@ -53,6 +59,68 @@
 </head>
 
 <body class="pricingpage" style="background-color: #f2f4f8;">
+    <header class="aramaheader" style="/*background: #f2f4f8;*/">
+        <div class="container" style="/*padding-bottom: 0px;*//*position: relative;*//*height: 0px;*/">
+            <nav class="navbar navbar-light navbar-expand text-center d-md-flex" style="align-items: end!important;text-align: right!important;margin-bottom: 0px;/*position: fixed;*//*top: 0%;*//*height: 90px;*/">
+                <div class="container-fluid"><a class="navbar-brand" href="#" style="padding: 0;margin: 0;/*width: 147px;*//*height: 22px;*/align-items: center;display: grid;"><img id="beyazlogo" src="assets/img/sosyalbiologo.svg" style="/*height: 22px;*/margin-left: -12px;"></a>
+                    <form class="flex-grow-1 searchbarform-wide" style="position: relative;/*margin-right: 27px;*/max-width: 100%;margin-left: 27px;"><input class="form-control searchbox navsearchbox" type="text" placeholder="sosyal.bio profillerini keşfet" style="padding-left: 25px;border: none;background: #fff;border-radius: 15px;font-weight: 500;height: 58px;"><button type="submit" style="position: absolute;right: 1rem;top: 50%;transform: translateY(-50%);background: none;border: none;font-size: 1.8rem;display: grid;align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="color: #4c6bf6;">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                            </svg></button></form><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse flex-grow-0 justify-content-md-end" id="navcol-1">
+                        <ul class="navbar-nav d-flex flex-grow-1 justify-content-end flex-sm-grow-1 flex-md-grow-0 beforelogin" style="position: relative;">
+                            <li class="nav-item logregnavitem"><button class="btn btn-light benimbutton-light" type="button">Giriş Yap</button></li>
+                            <li class="nav-item logregnavitem"><button class="btn btn-primary benimbutton" type="button">Kayıt Ol</button></li>
+                            <li class="nav-item logregtogglenavitem">
+                                <div class="nav-item dropdown d-inline" style="box-shadow: none;border: none;appearance: none;outline: none;"><a class="dropdown-toggle link-dark align-items-md-center align-items-xl-center logreg-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="text-decoration: none;"><img src="assets/img/toggle-black.svg" style="width: 1.5rem;"></a>
+                                    <div class="dropdown-menu hesapmenu" style="font-family: 'Gilroy-Light ☞';">
+                                        <div class="menuucgen"></div><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none">
+                                                <path d="M15.4857 20H19.4857C20.5903 20 21.4857 19.1046 21.4857 18V6C21.4857 4.89543 20.5903 4 19.4857 4H15.4857V6H19.4857V18H15.4857V20Z" fill="currentColor"></path>
+                                                <path d="M10.1582 17.385L8.73801 15.9768L12.6572 12.0242L3.51428 12.0242C2.96199 12.0242 2.51428 11.5765 2.51428 11.0242C2.51429 10.4719 2.962 10.0242 3.51429 10.0242L12.6765 10.0242L8.69599 6.0774L10.1042 4.6572L16.4951 10.9941L10.1582 17.385Z" fill="currentColor"></path>
+                                            </svg>Giriş Yap</a><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-plus-fill">
+                                                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"></path>
+                                            </svg>&nbsp;Kayıt Ol</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex flex-grow-1 justify-content-end flex-sm-grow-1 flex-md-grow-0 afterloggin" style="position: relative;">
+                            <li class="nav-item sagakaycak notification-nav-item">
+                                <div class="nav-item dropdown d-inline notificationdropdown" style="appearance: none;outline: none;"><a class="dropdown-toggle link-dark notificationtoggle" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-bell"></i></a>
+                                    <div class="dropdown-menu notification-menu"><a class="dropdown-item notification-item" href="#">
+                                            <div>
+                                                <p>Hesabınız tekrar aktif edilmiştir</p><span>5 Dakika Önce</span>
+                                            </div>
+                                        </a><a class="dropdown-item notification-item" href="#">
+                                            <div>
+                                                <p>Hesabınız tekrar aktif edilmiştir</p><span>5 Dakika Önce</span>
+                                            </div>
+                                        </a><a class="btn btn-light w-100 benimbutton-light mt-2" role="button" href="notifications.html">Tümünü Gör</a></div>
+                                </div><span class="badge bg-danger"></span>
+                            </li>
+                            <li class="nav-item">
+                                <div class="nav-item dropdown d-inline" style="box-shadow: none;border: none;"><a class="dropdown-toggle link-dark align-items-md-center align-items-xl-center" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="text-decoration: none;"><i class="fas fa-user d-print-inline-flex d-md-inline-flex d-lg-inline-flex d-xl-inline-flex d-xxl-inline-flex"></i></a>
+                                    <div class="dropdown-menu hesapmenu" style="font-family: 'Gilroy-Light ☞';">
+                                        <div class="menuucgen"></div><a class="dropdown-item" href="#"><i class="fas fa-user"></i>Hesap Ayarları</a><a class="dropdown-item" href="#"><i class="fas fa-table"></i>Admin Paneli</a><a class="dropdown-item masaustundegizle" href="#"><i class="fas fa-bell"></i>Bildirimler</a><a class="dropdown-item" href="#"><i class="fas fa-headset"></i>Destek</a><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>Çıkış Yap</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item mobildekibuyutec" style="/*align-items: end;*//*display: flex;*/">
+                                <div id="searchaccordiondiv-2" class="searchaccordiondiv"><button class="clearbutton searchbuttonopen collapsed" type="button" style="font-size: 1.1rem;width: 25px;" data-bs-toggle="collapse" data-bs-target="#searchaccordion .searchaccordion" aria-expanded="false" aria-controls="searchaccordion .searchaccordion"><i class="fas fa-times xiconcollapsed"></i><i class="fas fa-search searchiconcollapsed"></i></button></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="d-inline d-print-none d-sm-inline d-md-inline d-lg-none d-xl-none d-xxl-none" id="searchaccordion" role="tablist">
+                <div class="accordion-collapse collapse searchaccordion" role="tabpanel">
+                    <form class="d-block flex-grow-1" style="position: relative;margin: auto;"><input class="form-control searchbox" type="text" placeholder="Profilleri keşfet" style="padding-left: 25px;border: none;background: #fff;border-radius: 15px;height: 58px;"><button class="btn btn-primary" type="submit" style="background-color: rgba(255,255,255,0);border: none;position: absolute;right: 20px;top: 15px;height: 0px;width: 0px;box-shadow: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="searchbutton">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z" fill="currentColor"></path>
+                            </svg></button></form>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container py-4 py-xl-5 mb-5">
         <div class="row mb-5">
             <div class="col-md-8 text-center mx-auto">
@@ -619,8 +687,12 @@
     <script src="assets/js/sortable.js"></script>
     <script src="assets/js/step-form.js"></script>
     <script src="assets/js/xToggle.js"></script>
+    <script src="assets/js/Countdown.js"></script>
     <script src="assets/js/credit-card.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/FeedEk.js"></script>
+    <script src="assets/js/form-repeat.js"></script>
+    <script src="assets/js/rssfeed.js"></script>
     <script src="assets/js/scrolldown.js"></script>
     <script src="assets/js/zenginmodal.js"></script>
 </body>

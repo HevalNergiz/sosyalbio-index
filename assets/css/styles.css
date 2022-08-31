@@ -1413,10 +1413,6 @@ ul.benefit-list li:before {
   font-family: 'Gilroy-Bold ☞';
 }
 
-.gilroylight {
-  font-family: 'Gilroy-Light ☞';
-}
-
 @media (max-width: 576px) {
   .guzelnavtabs.blokicitabs {
     display: block;

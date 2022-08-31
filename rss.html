@@ -58,41 +58,42 @@
 </head>
 
 <body>
-    <div class="row" style="/*height: 100vh;*//*background-color: #f2f4f8;*/margin: 0;">
-        <div class="col-md-7 logregsayfalarindakisoldakicol">
-            <form id="logForm" class="logregform multisteps-form__form">
-                <div style="/*height: 100vh;*//*display: grid;*//*align-items: center;*/padding-top: 5rem;">
-                    <div style="width: clamp(50% , 90% , 600px);margin: auto;"><img src="assets/img/sosyalbiologo.svg" style="width: 12rem;margin-bottom: 3rem;">
-                        <div>
-                            <div style="margin-bottom: 1rem;">
-                                <h1 style="font-weight: 900;">Giriş Yap</h1>
-                                <p class="mb-0" style="line-height: 30px;color: #555c63;">Seni tekrardan görmek güzel!</p>
-                            </div>
-                            <div style="margin-bottom: 1rem;"><small class="form-text">E-Posta</small><input class="form-control myformcontrol" type="email" inputmode="email"></div>
-                            <div style="margin-bottom: 2rem;"><small class="form-text">Şifre</small><input class="form-control" type="password"></div>
-                            <div class="form-buttons-div2">
-                                <div>
-                                    <div class="form-check logregcheck"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Beni Hatırla</label></div>
-                                </div>
-                                <div><button class="btn btn-primary btn-lg" type="button" title="Devam Et">Giriş Yap</button></div><a class="sifremiunuttum" href="#">Şifreni hatırlamıyorsan tıkla.</a>
-                                <div class="text-center hesapyokmu"><a href="#">Hesabın yok mu? Hemen oluştur!</a></div>
-                                <div></div>
-                            </div>
-                            <div class="text-center py-3">
-                                <p class="gilroylight">veya</p><button class="btn btn-light benimbutton-light" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                    </svg>&nbsp;Facebook ile giriş yap</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="col-md-5" style="background: url(&quot;assets/img/joshua-coleman-kFRKvJQtNHg-unsplash.jpg&quot;) center / cover;">
-            <div></div>
-        </div>
-    </div>
+    <div id="feedDiv">
+        <div id="divFeed2"></div>
+    </div><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+       		$('#divFeed').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 2
+			});
+
+			$('#divFeed2').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 3, ShowDesc: true, ShowPubDate: false, DescCharacterLimit: 100
+            });
+
+            $('#divFeed3').FeedEk({
+                FeedUrl: ['http://feeds.bbci.co.uk/news/rss.xml','https://www.espn.com/espn/rss/news'],
+                MaxCount: 4
+            });
+
+			$('#divFeed4').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 2, DateFormat: 'd', DateFormatLang: 'en'
+            });
+
+			$('#divFeed5').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 2, DateFormat: 'D', DateFormatLang: 'fr-FR'
+			});			
+
+			$('#divFeed10').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 2, DateFormat: 'MM-dd-yyyy HH:mm', DateFormatLang: 'en'
+			});
+			$('#divFeed11').FeedEk({
+				FeedUrl: 'https://jquery-plugins.net/rss', MaxCount: 2, DateFormat: 'dd MMMM yyyy', DateFormatLang: 'en'
+			});
+    });
+
+</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

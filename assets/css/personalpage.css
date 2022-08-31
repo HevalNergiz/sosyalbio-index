@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
   .personalpage .container {
-    max-width: 50%;
+    max-width: 550px;
   }
 }
 
@@ -10,6 +10,7 @@
   border-radius: 50%;
   margin: 0 auto 1rem;
   background-size: cover;
+  background-position: center center;
 }
 
 .socialiconshere a {
@@ -26,7 +27,7 @@
 }
 
 .baglantiblogu.golge3 {
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.13), -4px -4px 10px #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.13), -4px -4px 10px rgba(255,255,255,0.68);
 }
 
 .baglantiblogu.golge2 {
@@ -76,5 +77,110 @@
 
 .baglantiblogu.outline1 {
   border: none;
+}
+
+.baglantiblogu.zenginbloklardanbiri {
+  padding: 0rem!important;
+}
+
+.zenginbaslik {
+  font-weight: bold;
+  display: block;
+}
+
+.baglantiblogu.paragrafblogu {
+  padding: 0!important;
+  background: none!important;
+}
+
+.baglantiblogu.zenginbloklardanbiri {
+  width: 100%;
+  padding: 0;
+  background: none!important;
+}
+
+.twitter-tweet.twitter-tweet-rendered, .css-1dbjc4n.r-1ets6dv.r-1q9bdsx.r-rs99b7.r-1loqt21.r-vakc41.r-y54riw r-1udh08x {
+  max-width: 100%!important;
+  min-width: 100%!important;
+  width: 100%!important;
+}
+
+.baglantiblogu.youtubeblogu.zenginbloklardanbiri .css-1dbjc4n .r-vakc41 {
+  max-width: 100%!important;
+  min-width: 100%!important;
+  width: 100%!important;
+}
+
+.personalpage .container {
+  max-width: 550px;
+}
+
+.baglantiblogu.zenginbloklardanbiri.dividerbloku {
+  margin: 3rem 0!important;
+  height: 1px;
+  border-top: solid;
+  border-width: 1px;
+}
+
+.baglantiblogu {
+  display: block;
+}
+
+.baglantiblogu .modal {
+  color: var(--bs-body-color);
+}
+
+.gorselbloku .img-fluid {
+  width: 100%;
+}
+
+.baglantiblogu.outline1.filebloku {
+  position: relative;
+}
+
+.baglantiblogu .blokikonu {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.personalavatardiv {
+  position: relative;
+}
+
+.baglantiblogu.outline1.paylasbloku {
+  position: relative;
+}
+
+.audiobloku audio {
+  width: 100%;
+}
+
+.hariciogefiyati {
+  padding: .5rem .7rem;
+  background-color: #cfd8ff;
+  color: #4d6bf5;
+  border-radius: 3rem;
+}
+
+.aboneolmodalpp {
+  width: 6rem;
+  height: 6rem;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bellicon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  right: calc(50% - 9rem);
+  display: flex;
+  padding: .5rem;
+  border-radius: 50%;
 }
 
