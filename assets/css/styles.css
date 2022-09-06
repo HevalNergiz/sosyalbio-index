@@ -2264,7 +2264,7 @@ footer .list-inline-item a {
 
 @media (min-width: 768px) {
   .onecikanozelliklercont {
-    max-width: 95%;
+    /*max-width: 95%;*/
   }
 }
 
