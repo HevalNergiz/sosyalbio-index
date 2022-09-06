@@ -42,7 +42,7 @@
 @media (min-width: 768px) {
   .demo-wrapper li {
     flex-shrink: 0;
-    width: clamp(10px, 20vw, 800px);
+    width: clamp(10px, 16vw, 500px);
     padding: 0 1rem;
     /*height: 40vh;*/
     /*aspect-ratio: 16/9;*/
