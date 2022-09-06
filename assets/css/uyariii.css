@@ -1,0 +1,50 @@
+.btn-success:hover {
+  color: #fff;
+  background-color: #71ad1c;
+  border-color: #71ad1c;
+}
+
+@media (min-width: 768px) {
+  .icerikyayinlandiimage {
+    width: 309px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kayitedildi {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #82c91d;
+  border-color: #82c91d;
+}
+
+.kayitedildi {
+  font-family: Montserrat, sans-serif;
+  background: #ffffff;
+  padding: 2rem;
+  margin: 2% auto;
+  border-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .kayitedildi {
+    width: clamp(0%, 55%, 800px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 2rem;
+    box-shadow: 10px 10px;
+  }
+}
+
+.griddiv {
+  height: 75vh;
+  align-items: center;
+  display: grid;
+}
+

@@ -53,7 +53,7 @@
   .demo-wrapper .ozelliklerhorizontal li {
     flex-shrink: 0;
     width: clamp(10px, 20vw, 250px);
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     /*height: 40vh;*/
     /*aspect-ratio: 16/9;*/
   }

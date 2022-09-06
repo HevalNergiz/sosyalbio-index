@@ -1,0 +1,7 @@
+.avatarinimagesi {
+  height: 100%;
+  background-image: url("../../assets/img/hevalnergizyanportre.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+

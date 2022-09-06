@@ -37,7 +37,6 @@
     <link rel="stylesheet" href="assets/css/navbar-with-searchbar.css">
     <link rel="stylesheet" href="assets/css/notification.css">
     <link rel="stylesheet" href="assets/css/pagination-contact.css">
-    <link rel="stylesheet" href="assets/css/payment.css">
     <link rel="stylesheet" href="assets/css/personalpage.css">
     <link rel="stylesheet" href="assets/css/preview.css">
     <link rel="stylesheet" href="assets/css/Pricing-Yearly--Monthly.css">
@@ -127,115 +126,25 @@
             </div>
         </div>
     </header>
-    <main class="contactpage">
-        <div class="paymentdiv">
-            <h1 class="mb-3 gilroybold">Destek Talepleriniz</h1>
-            <div class="table-responsive destektalebitable">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Konu</th>
-                            <th>Durum</th>
-                            <th>Tarih</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="#">Hesabım bozuk</a></td>
-                            <td class="text-success">Cevaplandı</td>
-                            <td>18 Ağustos 2022</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">Yeni QR Code Ekleyemiyorum</a></td>
-                            <td class="text-warning">Cevap Bekliyor</td>
-                            <td>19 Ağustos 2022</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <main>
+        <div class="griddiv">
+            <div style="/*padding-bottom: 3rem;*/">
+                <div class="kayitedildi" style="background: #ffffff;padding: 2rem;">
+                    <div>
+                        <h3 class="gilroybold text-center fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-alert-triangle" style="font-size: 3rem;color: var(--bs-warning);">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 9v2m0 4v.01"></path>
+                                <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75"></path>
+                            </svg></h3>
+                        <h3 class="gilroybold text-center">Hassas içerik</h3>
+                        <p class="text-center gilroylight mb-3 mt-3">Bu bağlantı, bazı izleyicilerin rahatsız edici veya rahatsız edici bulabileceği hassas içerik içerebilir.</p>
+                        <div style="text-align: center;"></div>
+                        <div style="text-align: center;margin-top: 3rem;padding-bottom: 3reö;"><button class="btn btn-secondary benimbutton-light" type="button" style="padding: .5rem 1rem;">Devam Et</button></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="paymentdiv">
-            <form>
-                <h1 class="gilroybold">Destek talebi oluştur</h1>
-                <p class="gilroylight h5">Değerli kullanıcımız <span class="gilroybold">Heval</span>, hangi konuda yardıma ihtiyacın var?</p>
-                <div class="pt-3"><label class="form-label">Departman</label><select class="form-select myformcontrol4">
-                        <optgroup label="Destek talebinizle ilgili departman seçin">
-                            <option value="12" selected="">Teknik destek</option>
-                            <option value="13">This is item 2</option>
-                            <option value="14">This is item 3</option>
-                        </optgroup>
-                    </select></div>
-                <div class="pt-3"><label class="form-label">Konu</label><input class="form-control" type="text" placeholder="Destek talebinizin konusu"></div>
-                <div class="pt-3"><label class="form-label">Açıklama</label><textarea class="form-control myformcontrol4 textareainput" style="resize: vertical;" rows="4" placeholder="Destek talebinizi açıklar mısınız?"></textarea></div>
-                <div class="pt-3"><label class="form-label">Dosya Ekleyin</label><input type="file" class="myfileinput myformcontrol4" multiple=""></div>
-                <div class="pt-3"><button class="btn btn-primary benimbutton" type="button">Gönder</button></div>
-            </form>
         </div>
     </main>
-    <footer>
-        <div class="container py-4 py-lg-5 tasirmacont">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Hakkımızda</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Biz Kimiz</a></li>
-                        <li><a class="link-secondary" href="#">İletişim Bilgilerimiz</a></li>
-                        <li><a class="link-secondary" href="#">Fiyatlandırma</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Destek</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Canlı destek</a></li>
-                        <li><a class="link-secondary" href="#">Destek talebi</a></li>
-                        <li><a class="link-secondary" href="#">SSS</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Yasal</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Kullanım koşulları</a></li>
-                        <li><a class="link-secondary" href="#">Gizlilik politikası</a></li>
-                        <li><a class="link-secondary" href="#">Çerez Politikası</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                    <div class="fw-bold d-flex align-items-center mb-2"><img src="assets/img/sosyalbiologo.svg" style="max-width: 8rem;"></div>
-                    <p class="text-muted copyright">Tek bir link yeterli!</p>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between align-items-center pt-3">
-                <p class="text-muted mb-0">Copyright © 2022 Sosyal.bio</p>
-                <ul class="list-inline text-nowrap mb-0">
-                    <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                            </svg></a></li>
-                    <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                                <circle cx="12" cy="12" r="3"></circle>
-                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                            </svg></a></li>
-                    <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                            </svg></a></li>
-                    <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="3" y="5" width="18" height="14" rx="4"></rect>
-                                <path d="M10 9l5 3l-5 3z"></path>
-                            </svg></a></li>
-                    <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                                <polyline points="3 7 12 13 21 7"></polyline>
-                            </svg></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
