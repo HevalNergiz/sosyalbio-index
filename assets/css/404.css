@@ -14,3 +14,16 @@
   font-family: 'Gilroy-Light ☞';
 }
 
+@media (min-width: 576px) {
+  .benimbutton.masaustundegizletekrar {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .myformcontrol4.yuvarlatmakgerek {
+    border-top-right-radius: 1rem!important;
+    border-bottom-right-radius: 1rem!important;
+  }
+}
+
