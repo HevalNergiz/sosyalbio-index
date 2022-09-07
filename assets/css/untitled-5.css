@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+  .tasirmacont .row {
+    overflow-x: hidden;
+  }
+}
+
+.marquee0 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .myformcontrol4.yuvarlatmakgerek {
+    border-top-right-radius: 1rem!important;
+    border-bottom-right-radius: 1rem!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .benimbutton.masaustundegizletekrar {
+    display: none;
+  }
+}
+
+.gilroylight {
+  font-family: 'Gilroy-Light ☞';
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: var(--bs-breadcrumb-divider-color);
+  content: var(--bs-breadcrumb-divider, "");
+}
+
+.avatarinimagesi {
+  height: 100%;
+  background-image: url("../../assets/img/hevalnergizyanportre.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+

@@ -10,30 +10,19 @@
   }
 }
 
-.gilroylight {
-  font-family: 'Gilroy-Light ☞';
-}
-
-@media (min-width: 576px) {
-  .benimbutton.masaustundegizletekrar {
-    display: none;
-  }
-}
-
 @media (max-width: 576px) {
-  .myformcontrol4.yuvarlatmakgerek {
-    border-top-right-radius: 1rem!important;
-    border-bottom-right-radius: 1rem!important;
+  .smallertext {
+    font-size: 1rem;
   }
 }
 
-.marquee0 {
-  margin-bottom: 1rem;
+.404text {
+  font-size: 16vw;
 }
 
-@media (max-width: 992px) {
-  .tasirmacont .row {
-    overflow-x: hidden;
-  }
+.tasirmacont .row .col {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
 }
 

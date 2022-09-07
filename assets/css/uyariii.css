@@ -1,9 +1,3 @@
-.btn-success:hover {
-  color: #fff;
-  background-color: #71ad1c;
-  border-color: #71ad1c;
-}
-
 @media (min-width: 768px) {
   .icerikyayinlandiimage {
     width: 309px;
@@ -17,14 +11,7 @@
   }
 }
 
-.btn-success {
-  color: #fff;
-  background-color: #82c91d;
-  border-color: #82c91d;
-}
-
 .kayitedildi {
-  font-family: Montserrat, sans-serif;
   background: #ffffff;
   padding: 2rem;
   margin: 2% auto;

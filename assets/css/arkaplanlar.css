@@ -30,13 +30,3 @@
   background: linear-gradient(180deg, #F7C0EC 0%, #A7BDEA 100%);
 }
 
-.404text {
-  font-size: 16vw;
-}
-
-@media (max-width: 576px) {
-  .smallertext {
-    font-size: 1rem;
-  }
-}
-
