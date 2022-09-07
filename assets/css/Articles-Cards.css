@@ -124,12 +124,14 @@
 @media (min-width: 768px) {
   .ozelliklerhorizontal li div p {
     padding: 0 1rem;
+    font-family: 'Gilroy-Medium ☞'!important;
   }
 }
 
 @media (max-width: 768px) {
-  .ozelliklerhorizontal li div p {
-    /*font-size: .8rem;*/
+  .ozelliklerhorizontal li div p.gilroybold {
+    font-size: .8rem;
+    font-family: 'Gilroy-Medium ☞'!important;
   }
 }
 
