@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://itsjavi.com/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/marquee.css">
+    <link rel="stylesheet" href="assets/css/mouseanimation.css">
     <link rel="stylesheet" href="assets/css/navbar-with-searchbar.css">
     <link rel="stylesheet" href="assets/css/notification.css">
     <link rel="stylesheet" href="assets/css/pagination-contact.css">
@@ -57,7 +59,7 @@
     <link rel="stylesheet" href="assets/css/uyariii.css">
 </head>
 
-<body class="anasayfa searchboxekle logged" style="/*background: url(&quot;assets/img/groovepaper.png&quot;) repeat;*//*background-size: auto, auto;*//*background: #f5f5f5;*/overflow-x: hidden!important;">
+<body class="anasayfa searchboxekle logged" style="/*background: url(&quot;assets/img/groovepaper.png&quot;) repeat;*//*background-size: auto, auto;*//*background: #f5f5f5;*/">
     <header class="aramaheader" style="/*background: #f2f4f8;*/">
         <div class="container" style="/*padding-bottom: 0px;*//*position: relative;*//*height: 0px;*/">
             <nav class="navbar navbar-light navbar-expand text-center d-md-flex" style="align-items: end!important;text-align: right!important;margin-bottom: 0px;/*position: fixed;*//*top: 0%;*//*height: 90px;*/">
@@ -134,15 +136,19 @@
             <div class="container">
                 <div class="noktaliayrac"></div>
                 <h3 class="text-center gilroylight girisheading text-dark" style="/*color: #2a2a2a;*/"><span class="gilroybold">Paylaşmak</span>&nbsp;istediğiniz her şeyi&nbsp;<span class="position-relative gilroybold">tek<img class="tac" src="assets/img/tac.svg"></span><br><span class="gilroybold">linkle</span>&nbsp;paylaşın.</h3>
-                <div class="row justify-content-center m-0" style="/*overflow-x: hidden;*/">
-                    <div class="col-12 col-md-8 col-lg-6 col-xl-5 p-0">
-                        <div style="margin-bottom: 4rem;">
-                            <div class="ayracgrad" style="width: 4rem;height: 6px;border-radius: 1rem;background: linear-gradient(90deg, #4b6dff, #46b8f8);margin-bottom: 4rem;margin-left: auto;margin-right: auto;"></div>
-                            <h3 class="text-center gilroylight mb-2 girisheading"><span class="position-relative"><img src="assets/img/doodle.svg" style="width: 1rem;top: -9px;position: absolute;left: -17px;">Hemen</span>&nbsp;<span class="gilroybold">biolink</span>&nbsp;sayfanızı oluşturun<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="mobildegizle" style="margin-top: 17px;">
-                                    <path d="M13.3987 6.84996C13.3977 5.74539 12.5014 4.85079 11.3969 4.85181L3.39687 4.8592L3.39502 2.8592L11.395 2.85181C13.6042 2.84977 15.3967 4.63897 15.3987 6.84811L15.4082 17.1538L19.1895 13.3656L20.605 14.7785L14.2469 21.1483L7.87709 14.7902L9.28999 13.3747L13.4085 17.4856L13.3987 6.84996Z" fill="currentColor"></path>
-                                </svg></h3>
+                <div class="position-relative pb-5" style="margin-bottom: 4rem;">
+                    <div class="scroll-downs">
+                        <div class="mousey">
+                            <div class="scroller"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center m-0" style="overflow-x: hidden;">
+                    <div class="col-12 col-md-8 col-lg-7">
+                        <div style="margin-bottom: 4rem;/*position: relative;*/">
+                            <h3 class="text-center gilroylight mb-2 girisheading" style="padding-top: 1rem;"><span class="position-relative"><img src="assets/img/doodle.svg" style="width: 1rem;top: -8px;position: absolute;left: -17px;">Hemen</span>&nbsp;<span class="gilroybold">biolink</span>&nbsp;sayfanızı oluşturun</h3>
                             <form>
-                                <div class="input-group myinputgroup"><span class="input-group-text">sosyal.bio/</span><input class="form-control myformcontrol4 yuvarlatmakgerek" type="text" placeholder="kullanici-adiniz" style="padding-left: 0;min-height: 60px;"><button class="btn btn-primary benimbutton mobildegizle" type="button">Hemen Katıl</button></div><button class="btn btn-primary benimbutton w-100 mt-3 masaustundegizletekrar" type="button">Biolink Sayfanı Oluştur</button>
+                                <div class="input-group myinputgroup"><span class="input-group-text">sosyal.bio/</span><input class="form-control myformcontrol4 yuvarlatmakgerek" type="text" placeholder="kullanici-adiniz" style="padding-left: 0;min-height: 60px;"><button class="btn btn-primary benimbutton mobildegizle" type="button">Hemen Katıl</button></div><button class="btn btn-primary benimbutton w-100 mt-3 masaustundegizletekrar" type="button" style="height: 60px;">Biolink Sayfanı Oluştur</button>
                             </form>
                         </div>
                         <div class="ayracgrad" style="width: 4rem;height: 6px;border-radius: 1rem;background: linear-gradient(90deg, #4b6dff, #46b8f8);margin-bottom: 4rem;margin-left: auto;margin-right: auto;"></div>
@@ -150,11 +156,10 @@
                 </div>
             </div>
         </div>
-        <div class="demo-wrapper" style="margin: 0 0 6rem;">
-            <div class="text-center"></div>
+        <div class="demo-wrapperrrrr" style="margin: 0 0 6rem;">
             <h3 class="text-center mb-4 gilroylight">Onlarca farklı zengin linkleri keşfet</h3>
-            <section class="demo-gallery">
-                <ul class="wrapper ozelliklerhorizontal">
+            <section class="marquee2">
+                <ul class="ozelliklerhorizontal marquee-content2">
                     <li>
                         <div class="py-4">
                             <p class="text-center gilroybold mb-0">Instagram Gönderisi</p>
@@ -190,10 +195,80 @@
                             <p class="text-center gilroybold mb-0">Spotify Playlistin</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Souncloud İçeriği</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Restoran Menüsü</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Etkinlik duyur</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Sık Sorulan Sorular</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Twitch Medyası</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Youtube Videosu</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Tweetlerin</p>
+                        </div>
+                    </li>
                 </ul>
             </section>
-            <section class="demo-gallery">
-                <ul class="wrapper ozelliklerhorizontal">
+            <section class="marquee3">
+                <ul class="ozelliklerhorizontal marquee-content3">
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Instagram Gönderisi</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Tiktok Videosu</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Fotoğraf Ekle</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Sosyal Hesapların</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">E-Posta ile Abonelik</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Sosyal Hesapların</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-4">
+                            <p class="text-center gilroybold mb-0">Spotify Playlistin</p>
+                        </div>
+                    </li>
                     <li>
                         <div class="py-4">
                             <p class="text-center gilroybold mb-0">Souncloud İçeriği</p>
@@ -236,7 +311,7 @@
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col solyazicol">
                     <div class="solyazidiv">
-                        <div data-bss-disabled-mobile="true" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
+                        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
                             <h1 class="gilroybold">Hemen Oluştur<br>Kolayca Düzenle</h1>
                             <div class="ayracgrad" style="width: 4rem;height: 6px;border-radius: 1rem;background: linear-gradient(90deg, #4b6dff, #46b8f8);margin-bottom: 1rem;"></div>
                             <p class="solyazi gilroylight">Saniyeler içerisinde&nbsp;<span class="gilroybold">sosyal.bio</span>&nbsp;hesabınızı oluşturun; dilediğiniz gibi özelleştirin:<br>butonlar, renkler, köşeler, şekiller, arkaplan, gölgeler, çerçeveler... Huh!</p>
@@ -252,7 +327,7 @@
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col solyazicol">
                     <div class="solyazidiv">
-                        <div data-bss-disabled-mobile="true" data-aos="fade-left" data-aos-duration="800" data-aos-delay="50" style="/*position: absolute;*//*top: 40%;*//*transform: translateY(-50%);*/">
+                        <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="50" style="/*position: absolute;*//*top: 40%;*//*transform: translateY(-50%);*/">
                             <h1 class="gilroybold">Zengin içerik demek ucuz kalır.</h1>
                             <div class="ayracgrad" style="width: 4rem;height: 6px;border-radius: 1rem;background: linear-gradient(90deg, #4b6dff, #46b8f8);margin-bottom: 1rem;"></div>
                             <p class="solyazi gilroylight">Video, podcast, yazı, etkinlik, toplantı, ürün...<br>Kitlenize&nbsp;ulaştırmak istediğiniz&nbsp;her şeyi&nbsp;tek&nbsp;bir linkle&nbsp;ulaştırın. Trafiği&nbsp;kontrolünüze&nbsp;alın.</p>
@@ -266,7 +341,7 @@
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col solyazicol">
                     <div class="solyazidiv">
-                        <div data-bss-disabled-mobile="true" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" style="/*position: absolute;*//*top: 40%;*//*transform: translateY(-50%);*/">
+                        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" style="/*position: absolute;*//*top: 40%;*//*transform: translateY(-50%);*/">
                             <h1 class="gilroybold">Sayılara fazla takılan biriyseniz size iyi bir haberimiz var!</h1>
                             <div class="ayracgrad" style="width: 4rem;height: 6px;border-radius: 1rem;background: linear-gradient(90deg, #4b6dff, #46b8f8);margin-bottom: 1rem;"></div>
                             <p class="solyazi gilroylight">Biz de sayılara en az sizin kadar takılıyoruz. Bunun için sosyal.bio'yu gelişmiş istatistik verileri sunabilecek kapasitede geliştirdik. Linklerinizin, sayfalarınızın, kitlenizin istatistiklerini keşfedin.</p>
@@ -369,42 +444,43 @@
                     <h2 class="loader--text gilroybold">0%</h2>
                 </div>
             </div>
-            <div class="demo-wrapper">
-                <section class="demo-gallery">
-                    <ul class="wrapper">
-                        <li><img src="assets/img/sosyalbio-ornekleri/8ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/2ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/17ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/7ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/4ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/5ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/6ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/9ss.webp"></li>
-                    </ul>
-                </section>
-                <section class="demo-gallery">
-                    <ul class="wrapper">
-                        <li><img src="assets/img/sosyalbio-ornekleri/1ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/10ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/9ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/11ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/15ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/16ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/18ss.webp"></li>
-                        <li><img src="assets/img/sosyalbio-ornekleri/13ss.webp"></li>
-                    </ul>
-                </section>
+            <div class="demo-wrapperr">
+                <section></section>
             </div>
         </div>
-        <div class="container py-4 py-xl-5 mb-0 anasayfadaki mt-5 tasirmacont">
-            <div class="row mb-5">
+        <div class="marquee0">
+            <ul class="marquee-content0">
+                <li><img src="assets/img/sosyalbio-ornekleri/1ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/10ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/9ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/11ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/15ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/16ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/18ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/13ss.webp" loading="lazy"></li>
+            </ul>
+        </div>
+        <div class="marquee">
+            <ul class="marquee-content">
+                <li><img src="assets/img/sosyalbio-ornekleri/13ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/8ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/2ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/17ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/7ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/4ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/5ss.webp" loading="lazy"></li>
+                <li><img src="assets/img/sosyalbio-ornekleri/6ss.webp" loading="lazy"></li>
+            </ul>
+        </div>
+        <div class="container mb-0 anasayfadaki tasirmacont mt-5" style="/*overflow-x: hidden;*/">
+            <div class="row" style="margin: 0 0 1.5rem 0;overflow-x: hidden;">
                 <div class="col-md-10 col-xl-10 text-start">
                     <h2 class="display-4" style="font-family: 'Gilroy-Bold ☞';margin-bottom: 0;/*color: #4c6bf6;*/">İşte Karşınızda Sosyal.bio</h2>
                 </div>
             </div>
-            <div class="row gx-4 gy-5 gx-md-5 row-cols-1 row-cols-lg-3 premiumfeatures">
-                <div class="col" data-aos="zoom-out-up" data-aos-duration="550">
-                    <div class="text-center d-flex flex-column align-items-center align-items-xl-center features-anadiv">
+            <div class="row gx-4 gy-5 gx-md-5 row-cols-1 row-cols-lg-3 premiumfeatures" style="padding-bottom: 2rem;">
+                <div class="col">
+                    <div class="text-center d-flex flex-column align-items-center align-items-xl-center features-anadiv" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="550">
                         <div class="mb-4 fotodivi"><img class="img-fluid" src="assets/img/customization.png"></div>
                         <div class="px-3">
                             <h2>Gelişmiş Özelleştirme Seçenekleri</h2>
@@ -414,8 +490,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col" data-aos="zoom-out-up" data-aos-duration="550" data-aos-delay="100">
-                    <div class="text-center flex-column features-anadiv">
+                <div class="col">
+                    <div class="text-center flex-column features-anadiv" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="650">
                         <div>
                             <div class="mb-0 fotodivi2"><img class="img-fluid" src="assets/img/istatistikler2.png"></div>
                             <div class="px-3">
@@ -428,8 +504,8 @@
                                 </svg></a></div>
                     </div>
                 </div>
-                <div class="col" data-aos="zoom-out-up" data-aos-duration="550" data-aos-delay="200">
-                    <div class="text-center flex-column features-anadiv">
+                <div class="col">
+                    <div class="text-center flex-column features-anadiv" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="750">
                         <div>
                             <div class="mb-5 fotodivi3"><img class="img-fluid" src="assets/img/odemeentegrasyonu.png"></div>
                             <div class="px-3">
@@ -444,7 +520,7 @@
                 </div>
             </div>
         </div>
-        <div class="container py-4 py-xl-5 mb-5 tasirmacont anasayfadakipricing mt-4">
+        <div class="container py-4 py-xl-5 mb-5 anasayfadakipricing mt-4 tasirmacont" style="/*overflow-x: hidden;*/">
             <div class="row mb-5">
                 <div class="col-md-8 text-center mx-auto">
                     <h2 class="display-4" style="font-family: 'Gilroy-Bold ☞';margin-bottom: 0;/*color: #4c6bf6;*/">Fiyatlandırma</h2>
@@ -452,13 +528,13 @@
                 </div>
             </div>
             <div>
-                <ul class="nav nav-pills d-flex justify-content-center guzelnavtabs mobildehizalitabs" role="tablist">
+                <ul class="nav nav-pills nav-fill d-flex justify-content-center guzelnavtabs" role="tablist">
                     <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-1">Yıllık Paketler</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="pill" href="#tab-2">Aylık Paketler</a></li>
                 </ul>
                 <div class="tab-content pt-5 pricingtabcontent">
                     <div class="tab-pane" role="tabpanel" id="tab-1">
-                        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4">
+                        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4" style="padding-bottom: 2rem;">
                             <div class="col" data-aos="zoom-out-up" data-aos-duration="550">
                                 <div class="card h-100 neumorphic">
                                     <div class="card-body flex-grow-0 p-4">
@@ -514,9 +590,9 @@
                         </div>
                     </div>
                     <div class="tab-pane active" role="tabpanel" id="tab-2">
-                        <div class="row gy-5 row-cols-1 row-cols-md-2 row-cols-lg-4">
-                            <div class="col" data-aos="zoom-out-up" data-aos-duration="550">
-                                <div class="card h-100 neumorphic">
+                        <div class="row gy-5 row-cols-1 row-cols-md-2 row-cols-lg-4" style="padding-bottom: 2rem;">
+                            <div class="col">
+                                <div class="card h-100 neumorphic" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="550">
                                     <div class="card-body flex-grow-0 p-4">
                                         <h6 class="display-6 fw-bold">💎 Premium</h6>
                                         <h4 class="display-5 fw-bold card-title">$15<span class="fs-3 fw-normal">/ay</span></h4>
@@ -528,8 +604,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="zoom-out-up" data-aos-duration="650" data-aos-delay="50">
-                                <div class="card h-100 neumorphic recomended">
+                            <div class="col">
+                                <div class="card h-100 neumorphic recomended" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="650">
                                     <div class="card-body flex-grow-0 p-4"><span class="badge bg-primary">Tavsiye Edilen</span>
                                         <h6 class="display-6 fw-bold">✨ Pro</h6>
                                         <h4 class="display-5 fw-bold card-title">$15<span class="fs-3 fw-normal">/ay</span></h4>
@@ -541,8 +617,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="zoom-out-up" data-aos-duration="750" data-aos-delay="100">
-                                <div class="card h-100 neumorphic">
+                            <div class="col">
+                                <div class="card h-100 neumorphic" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="750">
                                     <div class="card-body flex-grow-0 p-4">
                                         <h6 class="display-6 fw-bold">🥳 Başlangıç</h6>
                                         <h4 class="display-5 fw-bold card-title">$15<span class="fs-3 fw-normal">/ay</span></h4>
@@ -554,8 +630,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" data-aos="zoom-out-up" data-aos-duration="850" data-aos-delay="150">
-                                <div class="card h-100 neumorphic">
+                            <div class="col">
+                                <div class="card h-100 neumorphic" data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="850">
                                     <div class="card-body flex-grow-0 p-4">
                                         <h6 class="display-6 fw-bold">❤️ Ücretsiz</h6>
                                         <h4 class="display-5 fw-bold card-title">$15<span class="fs-3 fw-normal">/ay</span></h4>
@@ -573,7 +649,7 @@
             </div>
             <div class="text-center mt-5"><a class="btn btn-light benimbutton-light" role="button" href="blog.html">Tüm özelliklere göz at&nbsp;&nbsp;<i class="fas fa-chevron-circle-right"></i></a></div>
         </div>
-        <div class="container pb-5 tasirmacont">
+        <div class="container pb-5" style="overflow-x: hidden;">
             <div class="mt-4" style="padding: 0 16px;">
                 <h1 class="text-start gilroybold">Sık Sorulan Sorular</h1>
                 <p class="text-start gilroylight">Aklınıza takılan soruların cevaplarına hemen ulaşın. Aradığınız soruyu bulamıyor musunuz? Hemen bize ulaşın size mümkün olan en kısa zamanda yardımcı olmaktan mutluluk duyacağız.</p>
@@ -695,24 +771,24 @@
                 <p class="text-start gilroylight">Biolink sayfanızı nasıl daha profesyönel kullanacağınızı öğrenin. İp uçları, güncel haberler ve tavsiyeler burda.</p>
             </div>
             <div class="row gx-md-2 gx-lg-5 row-cols-1 row-cols-md-3 mx-auto py-0" style="/*max-width: 900px;*/">
-                <div class="col mb-4" data-aos="zoom-out-up" data-aos-duration="550">
-                    <div class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/1.jpg">
+                <div class="col mb-4">
+                    <div data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="550" class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/1.jpg">
                             <div class="pt-4 pb-0"><span class="badge rounded-pill bg-primary mb-2">örnek badge</span>
                                 <h4 class="fw-bold">Lorem libero donec</h4>
                                 <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </a></div>
                 </div>
-                <div class="col mb-4" data-aos="zoom-out-up" data-aos-duration="550" data-aos-delay="100">
-                    <div class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/2.jpg">
+                <div class="col mb-4">
+                    <div data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="650" class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/2.jpg">
                             <div class="pt-4 pb-0"><span class="badge rounded-pill bg-primary mb-2">örnek badge</span>
                                 <h4 class="fw-bold">Lorem libero donec</h4>
                                 <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </a></div>
                 </div>
-                <div class="col mb-4" data-aos="zoom-out-up" data-aos-duration="550" data-aos-delay="200">
-                    <div class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/3.jpg">
+                <div class="col mb-4">
+                    <div data-bss-disabled-mobile="true" data-aos="zoom-out-up" data-aos-duration="750" class="blogcard"><a class="blogcardlink" href="#"><img class="img-fluid shadow w-100 fit-cover" src="assets/img/gorseller/3.jpg">
                             <div class="pt-4 pb-0"><span class="badge rounded-pill bg-primary mb-2">örnek badge</span>
                                 <h4 class="fw-bold">Lorem libero donec</h4>
                                 <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
@@ -787,6 +863,39 @@
             </div>
         </div>
     </footer>
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
+
+<script id="rendered-js">
+gsap.registerPlugin(ScrollTrigger);
+
+const images = gsap.utils.toArray('img');
+const loader = document.querySelector('.loader--text');
+const updateProgress = (instance) =>
+loader.textContent = `${Math.round(instance.progressedCount * 100 / images.length)}%`;
+
+const showDemo = () => {
+  document.body.style.overflow = 'auto';
+  document.scrollingElement.scrollTo(0, 0);
+  gsap.to(document.querySelector('.loader'), { autoAlpha: 0 });
+
+  gsap.utils.toArray('section').forEach((section, index) => {
+    const w = section.querySelector('.wrapper');
+    const [x, xEnd] = index % 2 ? ['100%', (w.scrollWidth - section.offsetWidth) * -1] : [w.scrollWidth * -1, 0];
+    gsap.fromTo(w, { x }, {
+      x: xEnd,
+      scrollTrigger: {
+        trigger: section,
+        scrub: 0.5 } });
+
+
+  });
+};
+
+imagesLoaded(images).on('progress', updateProgress).on('always', showDemo);
+//# sourceURL=pen.js
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
@@ -798,14 +907,9 @@
     <script src="assets/js/istatistik.js"></script>
     <script src="assets/js/sortable.js"></script>
     <script src="assets/js/step-form.js"></script>
-    <script src="assets/js/Countdown.js"></script>
-    <script src="assets/js/credit-card.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/FeedEk.js"></script>
     <script src="assets/js/form-repeat.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/marquee.js"></script>
     <script src="assets/js/scrolltrigger.js"></script>
     <script src="assets/js/zenginmodal.js"></script>
 </body>

@@ -27,3 +27,13 @@
   }
 }
 
+.marquee0 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .tasirmacont .row {
+    overflow-x: hidden;
+  }
+}
+
