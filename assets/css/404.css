@@ -20,9 +20,14 @@
   font-size: 16vw;
 }
 
-.tasirmacont .row .col {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  overflow: hidden;
+.ozelliklerhorizontal li div svg, .ozelliklerhorizontal li div i {
+  margin-right: .5rem;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .tasirmacont .pricingtabcontent .row .col {
+    padding-top: 1.5rem;
+  }
 }
 

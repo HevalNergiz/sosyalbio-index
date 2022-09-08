@@ -4,25 +4,54 @@
   --marquee-elements0: 8;
   --marquee-elements-displayed0: 6;
   --marquee-element-width0: calc(var(--marquee-width0) / var(--marquee-elements-displayed0));
-  --marquee-animation-duration0: calc(var(--marquee-elements0) * 2s);
+  --marquee-animation-duration0: calc(var(--marquee-elements0) * 3s);
   --marquee-width: 100vw;
   --marquee-height: auto;
   --marquee-elements: 8;
   --marquee-elements-displayed: 6;
   --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
-  --marquee-animation-duration: calc(var(--marquee-elements) * 2s);
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
   --marquee-width2: 100vw;
   --marquee-height2: auto;
   --marquee-elements2: 14;
-  --marquee-elements-displayed2: 7;
+  --marquee-elements-displayed2: 6;
   --marquee-element-width2: calc(var(--marquee-width2) / var(--marquee-elements-displayed2));
-  --marquee-animation-duration2: calc(var(--marquee-elements2) * 2s);
+  --marquee-animation-duration2: calc(var(--marquee-elements2) * 3s);
   --marquee-width3: 100vw;
   --marquee-height3: auto;
   --marquee-elements3: 14;
-  --marquee-elements-displayed3: 7;
+  --marquee-elements-displayed3: 6;
   --marquee-element-width3: calc(var(--marquee-width3) / var(--marquee-elements-displayed3));
-  --marquee-animation-duration3: calc(var(--marquee-elements3) * 2s);
+  --marquee-animation-duration3: calc(var(--marquee-elements3) * 3s);
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --marquee-width0: 100vw;
+    --marquee-height0: auto;
+    --marquee-elements0: 8;
+    --marquee-elements-displayed0: 8;
+    --marquee-element-width0: calc(var(--marquee-width0) / var(--marquee-elements-displayed0));
+    --marquee-animation-duration0: calc(var(--marquee-elements0) * 2s);
+    --marquee-width: 100vw;
+    --marquee-height: auto;
+    --marquee-elements: 8;
+    --marquee-elements-displayed: 8;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 2s);
+    --marquee-width2: 100vw;
+    --marquee-height2: auto;
+    --marquee-elements2: 14;
+    --marquee-elements-displayed2: 8;
+    --marquee-element-width2: calc(var(--marquee-width2) / var(--marquee-elements-displayed2));
+    --marquee-animation-duration2: calc(var(--marquee-elements2) * 3s);
+    --marquee-width3: 100vw;
+    --marquee-height3: auto;
+    --marquee-elements3: 14;
+    --marquee-elements-displayed3: 8;
+    --marquee-element-width3: calc(var(--marquee-width3) / var(--marquee-elements-displayed3));
+    --marquee-animation-duration3: calc(var(--marquee-elements3) * 3s);
+  }
 }
 
 .marquee3 {

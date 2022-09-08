@@ -862,7 +862,7 @@ body {
   transition-duration: .1s;
   /*right: -10px;*/
   box-shadow: 10px 10px 0 #212529;
-  transform: translateX(-10px) translateY(-10px);
+  transform: translateX(-5px) translateY(-5px);
 }
 
 .pricingtabcontent .card {
@@ -1845,20 +1845,20 @@ ul.benefit-list li:before {
 
 @media (max-width: 768px) {
   .solyazidiv:first-child {
-    margin-bottom: 7rem!important;
+    margin-bottom: 4rem!important;
   }
 }
 
 @media (max-width: 992px) {
   .animasyoncol {
     /*height: 200vh;*/
-    padding: 0rem 0 2rem 0!important;
+    padding: 0rem 0 1rem 0!important;
   }
 }
 
 @media (max-width: 992px) {
   .animasyonkutusu {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     /*margin-top: 3rem;*/
     width: 95%;
     margin-left: auto;
