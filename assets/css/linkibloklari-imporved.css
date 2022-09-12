@@ -1,0 +1,10 @@
+.degistirilebilirinput {
+  max-width: 70%;
+  padding-right: 1rem;
+  text-overflow: ellipsis;
+}
+
+.linkiconlari-button:hover svg, .linkiconlari-button:active svg, .linkiconlari-button:focus svg {
+  color: #4c6bf6;
+}
+

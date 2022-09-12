@@ -31,3 +31,16 @@
   }
 }
 
+.bloklink {
+  display: flex;
+}
+
+.cookiemotherdiv {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 2rem;
+  width: 100%;
+  z-index: 3;
+}
+
