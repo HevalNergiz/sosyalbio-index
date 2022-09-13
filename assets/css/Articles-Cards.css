@@ -140,7 +140,10 @@
   box-shadow: 10px 10px;
   /*transition-duration: .2s;*/
   transform: translateX(-10px) translateY(-10px);
-  transition-duration: .1s;
+  transition-duration: .1s!important;
+  /*margin-top: -10px;*/
+  /*margin-left: -10px;*/
+  /*animation-duration: .2s;*/
 }
 
 .blogcard {
