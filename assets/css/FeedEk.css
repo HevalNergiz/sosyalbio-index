@@ -11,7 +11,7 @@
 .feedEkList li {
   /*border-bottom: 1px solid #D3CAD7;*/
   padding: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   background-color: #f2f4f8;
 }
 
@@ -22,7 +22,7 @@
 
 .itemTitle a {
   font-weight: bold;
-  color: #4d6bf5 !important;
+  /*color: #4d6bf5 !important;*/
   text-decoration: none;
 }
 

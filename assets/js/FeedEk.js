@@ -48,7 +48,7 @@
 		var generateHtml = function (data) {
 			var s = "";
 			$.each(data, function (e, itm) {
-				s += '<li><div class="itemTitle"><a href="' + itm.link + '" target="' + def.TitleLinkTarget + '" >' + itm.title + '</a></div>';
+				s += '<li class="baglantiblogu"><div class="itemTitle"><a href="' + itm.link + '" target="' + def.TitleLinkTarget + '" >' + itm.title + '</a></div>';
 
 				if (def.ShowPubDate) {
 					s += '<div class="itemDate">';
