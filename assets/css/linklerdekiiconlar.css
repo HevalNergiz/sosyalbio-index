@@ -1,0 +1,11 @@
+.divIcon i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1rem;
+}
+
+.divIcon {
+  position: relative;
+}
+

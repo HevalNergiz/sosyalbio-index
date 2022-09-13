@@ -2,6 +2,14 @@
  Klasik Tema 
  **************** */
 
+.klasiktema.renk-1 .divIcon, .klasiktema.renk-3 .divIcon, .klasiktema.renk-4 .divIcon, .klasiktema.renk-5 .divIcon, .klasiktema.renk-6 .divIcon {
+  color: #000000;
+}
+
+.klasiktema.renk-2 .divIcon, .klasiktema.renk-7 .divIcon {
+  color: #ffffff;
+}
+
 .klasiktema.renk-1 .baglantiblogu {
   background-color: #ffffff;
   color: #000000;
@@ -112,6 +120,14 @@
  Basit Tema 
  **************** */
 
+.basittema.renk-1 .divIcon, .basittema.renk-3 .divIcon, .basittema.renk-4 .divIcon, .basittema.renk-5 .divIcon, .basittema.renk-6 .divIcon {
+  color: #000000;
+}
+
+.basittema.renk-2 .divIcon, .basittema.renk-7 .divIcon {
+  color: #ffffff;
+}
+
 .basittema.renk-1 .baglantiblogu {
   background-color: #ffffff;
   color: #000000;
@@ -219,6 +235,14 @@
 }
 
 /* ****** Brutal Tema ***** */
+
+.personalpage.brutaltema.renk-3 .divIcon, .personalpage.brutaltema.renk-4 .divIcon, .personalpage.brutaltema.renk-5 .divIcon, .personalpage.brutaltema.renk-6 .divIcon {
+  color: #fff;
+}
+
+.personalpage.brutaltema.renk-7 .divIcon, .personalpage.brutaltema.renk-8 .divIcon, .personalpage.brutaltema.renk-9 .divIcon {
+  color: #000;
+}
 
 .personalpage.brutaltema.renk-1 {
   background: #000;
@@ -351,6 +375,14 @@
 
 /* ***** Neumorphism ***** */
 
+.neumorphismtema.renk-1 .divIcon, .neumorphismtema.renk-3 .divIcon, .neumorphismtema.renk-4 .divIcon, .neumorphismtema.renk-5 .divIcon, .neumorphismtema.renk-6 .divIcon {
+  color: #fff;
+}
+
+.neumorphismtema.renk-2 .divIcon, .neumorphismtema.renk-7 .divIcon {
+  color: #000;
+}
+
 .personalpage.neumorphismtema.renk-1 {
   background-color: #212121;
   color: #fff;
@@ -473,6 +505,14 @@
 
 /* ***** Outline Tema ***** */
 
+.personalpage.outlinetema.renk-1 .divIcon {
+  color: #fff;
+}
+
+.personalpage.outlinetema.renk-2 .divIcon, .personalpage.outlinetema.renk-3 .divIcon, .personalpage.outlinetema.renk-4 .divIcon, .personalpage.outlinetema.renk-5 .divIcon, .personalpage.outlinetema.renk-6 .divIcon, .personalpage.outlinetema.renk-7 .divIcon {
+  color: #000000;
+}
+
 .personalpage.outlinetema.renk-1 {
   background-color: #000;
   color: #fff;
@@ -553,6 +593,14 @@
 
 /* *** Glass Tema *** */
 
+.personalpage.outlinetema.renk-1 .divIcon, .personalpage.outlinetema.renk-3 .divIcon, .personalpage.outlinetema.renk-5 .divIcon, .personalpage.outlinetema.renk-7 .divIcon {
+  color: #fff;
+}
+
+.personalpage.outlinetema.renk-2 .divIcon, .personalpage.outlinetema.renk-4 .divIcon, .personalpage.outlinetema.renk-6 .divIcon {
+  color: #fff;
+}
+
 .personalpage.glasstema.renk-3 .bellicon, .personalpage.glasstema.renk-4 .bellicon, .personalpage.glasstema.renk-5 .bellicon, .personalpage.glasstema.renk-6 .bellicon {
   color: #ffffff;
   background: rgba(0,0,0,0.15);
@@ -570,7 +618,6 @@
 
 .personalpage.glasstema .baglantiblogu {
   box-shadow: none!important;
-  font-family: 'Gilroy-Medium ☞';
 }
 
 .personalpage.glasstema .baglantiblogu.zenginbloklardanbiri {
