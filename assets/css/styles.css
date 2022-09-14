@@ -2366,3 +2366,8 @@ header .beforelogin .nav-item:last-child {
   }
 }
 
+#kullaniciadigirrrr::placeholder {
+  font-weight: 800;
+  color: #4d6bf5;
+}
+
