@@ -44,3 +44,8 @@
   z-index: 3;
 }
 
+#kullaniciadigirrrr::placeholder {
+  font-weight: 800;
+  color: #4d6bf5;
+}
+
