@@ -431,8 +431,8 @@ input:checked + .slider:before {
 }
 
 .aramaheader {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-style: solid!important;
+  border-bottom-width: 1px!important;
 }
 
 #logForm .form-buttons-div2 .btn, #recForm .form-buttons-div2 .btn {

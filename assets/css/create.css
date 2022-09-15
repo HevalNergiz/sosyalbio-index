@@ -120,29 +120,33 @@
   box-shadow: 0 0 #fff, 0 0 #fff, 0 -3px #fff, 0 3px #fff, -3px 0 #fff, 3px 0 #fff, 0 -6px #fff, 0 6px #fff, -6px 0 #fff, 6px 0 #fff, 0 -9px #fff, 0 9px #fff, -9px 0 #fff, 9px 0 #fff, 0 -12px #fff, 0 12px #fff, -12px 0 #fff, 12px 0 #fff;
 }
 
-.fab-button:focus .plus {
+#plusiconu.plus.arti {
+  transform: rotate(0deg);
+}
+
+#plusiconu.plus.carpi {
   transform: rotate(45deg);
 }
 
-.fab-button:focus + .fab-options, .fab-options:active {
-  width: auto;
-  opacity: 1;
-  transition-duration: .5s;
-  animation-duration: 1s;
-  display: initial;
-  top: -10rem;
+.fab-button:hover + .fab-options, .fab-options:active {
+  /*width: auto;*/
+  /*opacity: 1;*/
+  /*transition-duration: .5s;*/
+  /*animation-duration: 1s;*/
+  /*display: initial;*/
+  /*top: -10rem;*/
   /*transform: translateY(-2rem);*/
-  left: 1rem;
+  /*left: 1rem!important;*/
 }
 
 .fab-options {
   position: absolute;
-  width: 0;
-  opacity: 0;
+  /*width: 0;*/
+  /*opacity: 0;*/
   z-index: 500;
   /*margin: -70px 0 0 75px;*/
-  left: -9rem;
-  top: -10rem;
+  /*left: -9rem;*/
+  top: -7rem;
   /*display: none;*/
   transition-duration: .5s;
   animation-duration: 1s;
@@ -192,5 +196,20 @@
 
 .fab-options .fab-option:hover {
   cursor: pointer;
+}
+
+.fab-options.hide {
+  /*left: -13rem;*/
+  /*opacity: 0;*/
+  /*width: 0;*/
+  transform: translateX(-100%);
+  pointer-events: none;
+}
+
+.fab-options.show {
+  left: 1rem;
+  top: -7rem;
+  opacity: 1;
+  width: auto;
 }
 

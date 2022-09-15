@@ -82,8 +82,8 @@
     <link rel="stylesheet" href="assets/css/uyariii.css">
 </head>
 
-<body class="logged" style="background-color: #f5f5f5;">
-    <header class="aramaheader" style="/*background: #f2f4f8;*/">
+<body class="anasayfa logged" style="background-color: #f5f5f5;">
+    <header class="aramaheader">
         <div class="container" style="/*padding-bottom: 0px;*//*position: relative;*//*height: 0px;*/">
             <nav class="navbar navbar-light navbar-expand text-center d-md-flex" style="align-items: end!important;text-align: right!important;margin-bottom: 0px;/*position: fixed;*//*top: 0%;*//*height: 90px;*/">
                 <div class="container-fluid"><a class="navbar-brand" href="#" style="padding: 0;margin: 0;/*width: 147px;*//*height: 22px;*/align-items: center;display: grid;"><img id="beyazlogo-1" src="assets/img/sosyalbiologo.svg" style="/*height: 22px;*/margin-left: -12px;"></a>
@@ -157,13 +157,13 @@
                 <div class="col anaduzenlemesolcol">
                     <div class="linksekmeleri">
                         <ul class="nav nav-tabs guzelnavtabs" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Linkler</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Linkler</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Görünüm</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">İstatistikler</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-3">İstatistikler</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Ayarlar</a></li>
                         </ul>
                         <div class="tab-content linkduzenlemetabcontent">
-                            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                            <div class="tab-pane" role="tabpanel" id="tab-1">
                                 <div class="accordion istatistikaccordion beyazok" role="tablist" id="accordion-istatistik">
                                     <div class="accordion-item neumorphic">
                                         <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-istatistik .item-1" aria-expanded="false" aria-controls="accordion-istatistik .item-1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bar-chart-line">
@@ -201,7 +201,7 @@
                                                 <div class="modulecontent">
                                                     <h6 class="blokheading"><input type="text" id="blokheading-1" class="degistirilebilirinput" value="Instagram"><button class="penbutton" type="button" onclick="document.getElementById(&#39;blokheading-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
                                                     <h6 class="bloklink" style="position: relative;"><input type="text" id="bloklink-1" class="degistirilebilirinput" value="https://instagram.comAAAAAASAAAFSADFJAHSGDKASJHDLAKSDJAŞSLJDASŞLDKASDAKSŞDAS"><button class="penbutton" type="button" onclick="document.getElementById(&#39;bloklink-1&#39;).focus()"><i class="fas fa-pen"></i></button></h6>
-                                                    <div id="iconaccordion-1" class="linkiconlari"><button class="linkiconlari-button" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion .item-3" aria-expanded="true" aria-controls="thumbinailaccordion .item3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-photo">
+                                                    <div id="iconaccordion-1" class="linkiconlari"><button class="linkiconlari-button" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion" aria-expanded="true" aria-controls="thumbinailaccordion .item3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-photo">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                                 <line x1="15" y1="8" x2="15.01" y2="8"></line>
                                                                 <rect x="4" y="4" width="16" height="16" rx="3"></rect>
@@ -298,8 +298,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div id="thumbinailaccordion" class="accordion" role="tablist">
-                                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#iconaccordion-1">
+                                                <div class="accordion" role="tablist">
+                                                    <div id="thumbinailaccordion" class="accordion-collapse collapse" role="tabpanel" data-bs-parent="#iconaccordion-1">
                                                         <div class="accordion-heading">
                                                             <p>Link Bloğu Icon'u</p><a class="accordion-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg" data-bs-toggle="collapse" data-bs-target="#thumbinailaccordion .item-3" aria-expanded="true" aria-controls="#istatistikaccordion .item1">
                                                                     <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
@@ -666,18 +666,18 @@
                                         <h4><span class="baslikiconu">🔥</span>Görünüm</h4>
                                         <div>
                                             <ul class="nav nav-tabs nav-fill guzelnavtabs" role="tablist">
-                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-5">Hazır Temalar</a></li>
-                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-6">Tema Oluştur</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-5">Hazır Temalar</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-6">Tema Oluştur</a></li>
                                             </ul>
                                             <div class="tab-content">
-                                                <div class="tab-pane" role="tabpanel" id="tab-5">
+                                                <div class="tab-pane active" role="tabpanel" id="tab-5">
                                                     <p style="color: #595959;margin-bottom: 1rem;font-family: 'Gilroy-Light ☞';margin-left: .5rem;">Eşsiz tasarım trendleriyle hızlı ve kaliteli başlangıç arayanlar için.</p>
                                                     <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">🧑‍🎨 Biolink sayfanızın ana teması</p><small class="form-text" style="margin-left: .5rem;">Tüm temaları görebilmek için sola kaydırın.</small>
                                                     <div class="gercektemalar">
                                                         <ul class="nav nav-tabs anatemalarscroll" role="tablist">
                                                             <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-7"><img src="assets/img/dt-5.jpg">&nbsp;Klasik</a></li>
-                                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-8"><img src="assets/img/dt-3.jpg">Neumorphism</a></li>
-                                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-9"><img src="assets/img/dt-2.jpg">Neubrutalism</a></li>
+                                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-8"><img src="assets/img/dt-3.jpg">Kabartma</a></li>
+                                                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-9"><img src="assets/img/dt-2.jpg">Tatlı-Sert</a></li>
                                                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-10"><img src="assets/img/dt-4.jpg">Buzlu Cam</a></li>
                                                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-11"><img src="assets/img/dt-1.jpg">Dış Hatlar</a></li>
                                                             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-12"><img src="assets/img/dt-0.jpg">Basit</a></li>
@@ -775,7 +775,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane active" role="tabpanel" id="tab-6">
+                                                <div class="tab-pane" role="tabpanel" id="tab-6">
                                                     <p style="color: #000000;margin-bottom: 0rem;margin-left: .5rem;font-family: 'Gilroy-Bold ☞';">🍫 Buton, yazı ve çerçeve renkleri.</p>
                                                     <div class="row gx-2 row-cols-2 row-cols-md-4 colorpickerrow mb-3">
                                                         <div class="col">
@@ -1010,7 +1010,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="tab-pane istatistiktabi" role="tabpanel" id="tab-3">
+                            <div class="tab-pane active istatistiktabi" role="tabpanel" id="tab-3">
                                 <h6 class="tumzamanlarh6">Tüm Zamanlar</h6>
                                 <div class="linkduzenlemekisim yenikutu tumzamanlar neumorphic">
                                     <div class="container">
@@ -2232,6 +2232,7 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/kutucuklar.js"></script>
     <script src="assets/js/marquee.js"></script>
     <script src="assets/js/rssfeed.js"></script>
     <script src="assets/js/scrolldown.js"></script>
